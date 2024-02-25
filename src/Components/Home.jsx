@@ -1,6 +1,6 @@
 // import React from 'react'
 import Navbar from './Navbar'
-
+import Footer from '../Footer'
 const MainHeader = () => {
   return (
     <>
@@ -25,6 +25,7 @@ const MainHeader = () => {
         </ul>
       </div>
       </section>
+      <Footer></Footer>
 
       
        

@@ -149,6 +149,22 @@ a.active{
       box-shadow: 2px 2px 2px 1px black;
       margin: 20px;
       padding: 20px;
+      border-radius: 15px;
     }
+  }
+}
+footer{
+  display: flex;
+  width: 100%;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  background-color: #880001;
+  color: white;
+  font-size: 10px;
+  >h1{
+    margin-left: 550px;
   }
 }

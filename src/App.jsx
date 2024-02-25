@@ -15,6 +15,7 @@ const App = () => {
           <Route path="/myprofile" element={<SearchAlumini/>}/> 
         </Routes>
       </BrowserRouter>
+      
     
     </>
   )
