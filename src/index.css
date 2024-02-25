@@ -59,7 +59,7 @@ header{
  
 }
 .nav_li{
-  color:black;
+  color:#880001;;
   font-weight: bold;
   text-decoration: none;
   font-size: 15px;
@@ -92,7 +92,8 @@ a.active{
   width: 100%;
   
   font-size: 24px;
-  color:black;
+  color:#880001;
+  text-shadow: 1px 1px black;
 }
 
 .typed {
@@ -103,12 +104,12 @@ a.active{
   animation-duration: 2.5s;
   animation-timing-function: steps(30, end);
   animation-fill-mode: forwards;
-  text-shadow: 1px 1px white;
+  text-shadow: 1px 1px black;
 
 }
 
 .typed1{
-  text-shadow: 1px 1px white ;
+  text-shadow: 1px 1px black ;
 
 }
 
