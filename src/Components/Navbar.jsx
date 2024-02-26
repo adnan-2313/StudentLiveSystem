@@ -5,7 +5,7 @@ import logo2 from "../lpu_logo.png";
 const Navbar = () => {
   return (
     <>
-      <header>
+      <header className="header1">
       <div className="logo1">
         <img src={logo} alt="/" />
       </div>

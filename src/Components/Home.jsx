@@ -1,9 +1,11 @@
 // import React from 'react'
 import Navbar from './Navbar'
 import Footer from '../Footer'
+import Header from './Header'
 const MainHeader = () => {
   return (
     <>
+    <Header></Header>
      <Navbar></Navbar> 
      <section>
      <div className="home_head">
