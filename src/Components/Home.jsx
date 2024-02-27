@@ -1,17 +1,29 @@
 // import React from 'react'
 import Navbar from './Navbar'
 import Footer from '../Footer'
-import Header from './Header'
+import { useTypewriter,Cursor} from 'react-simple-typewriter';
 const MainHeader = () => {
+  const [text] = useTypewriter({
+    words:['LPU Student Live System'],
+    loop:{},
+  })
+  const [text2] = useTypewriter({
+    words:['Connecting Engineers, Creating Opportunities'],
+    loop:{},
+  })
+  const [text3] = useTypewriter({
+    words:['Discover, Connect, Innovate'],
+    loop:{},
+  })
+ 
   return (
     <>
-    <Header></Header>
      <Navbar></Navbar> 
      <section>
      <div className="home_head">
-        <h1 className="typed">Welcome to LPU Student Live System</h1> 
-        <h3 className="typed1">Connecting Engineers, Creating Opportunities</h3>
-         <h4 className='typed1'>Discover, Connect, Innovate</h4>
+        <h1 className="typed">Welcome to {text}<Cursor/></h1> 
+        <h3 className="typed1">{text2}</h3>
+         <h4 className='typed1'>{text3}</h4>
       </div>    
       <div className='para1'>
         <span>At LPU, we believe in fostering collaboration and innovation among our student community. 

@@ -2,6 +2,7 @@
 import logo from "../logo1.png";
 import { NavLink } from "react-router-dom";
 import logo2 from "../lpu_logo.png";
+import "./Navbar.css";
 const Navbar = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const Navbar = () => {
       </div>
         <nav className="navbar1">
             <ul className="nav_ul">
-                <NavLink style = {{active:"red"}} className="link" to="/"><li className="nav_li">Home</li></NavLink>
+                <NavLink className="link" to="/"><li className="nav_li">Home</li></NavLink>
                 <NavLink className="link" to="/searchfaculty"><li className="nav_li">Search Faculty</li></NavLink>
                 <NavLink className="link" to="/searchstudent"><li className="nav_li">Search Students</li></NavLink>
                 <NavLink className="link" to="/searchalumini"><li className="nav_li">Search Alumini</li></NavLink>

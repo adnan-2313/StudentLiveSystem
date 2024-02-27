@@ -3,9 +3,11 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import SearchStudent from './Components/SearchStudent';
 import SearchFaculty from './Components/SearchFaculty';
 import SearchAlumini from './Components/SearchAlumini';
+import Header from './Components/Header';
 const App = () => {
   return (
     <>
+    <Header></Header>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>}/> 

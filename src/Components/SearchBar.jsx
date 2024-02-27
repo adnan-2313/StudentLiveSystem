@@ -5,7 +5,8 @@ const SearchBar = (porps) => {
     <>
       <section>
         <div className="search">
-            <input type="text" placeholder={`search ${porps.holder}`} />
+        <label className="label1" htmlFor={porps.holder}></label>
+            <input type="text" />
         </div>
       </section>
     </>

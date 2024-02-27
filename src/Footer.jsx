@@ -1,10 +1,11 @@
 import React from 'react'
 
 const Footer = () => {
+    const year = new Date().getFullYear();
   return (
     <>
       <footer>
-        <h1>Copyright©️ 2024</h1>
+        <h1>{`Copyright©️ ${year}`}</h1>
       </footer>
     </>
   )
