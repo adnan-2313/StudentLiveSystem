@@ -5,6 +5,7 @@ const SearchFaculty = () => {
   return (
     <>
       <section>
+        
         <Navbar></Navbar>
         <SearchBar holder="faculty"/>
       </section>

@@ -1,0 +1,89 @@
+registration_number,name,city,state,country,minor,year,num_of_projects,email,linkedIn_id
+1,"Rohit Kumar",Jamshedpur,Jharkhand,India,"Machine Learning",4,0,rk0083764@gmail.com,https://www.linkedin.com/in/rohitkumar1504/
+2,"Dhiman Kumbhakar",Patmda,Jharkhand,India,"Machine Learning",4,0,dhimankumbhakar0@gmail.com,https://www.linkedin.com/in/dhiman-kumbhakar-819558220/
+3,"Uday Narayan",Bhubaneswar,Odisha,India,Full-Stack,4,0,udaynarayanseth12@gmail.com,linkedin.com/in/uday-narayan-seth
+4,"Adnan Khan",Bareilly,"Uttar Pradesh",India,"Machine Learning",4,0,ak567845@gmail.com,linkedin.com/in/adnankhan123
+5,"mohd maz",Bareilly,"Uttar Pradesh",India,"Machine Learning",4,0,mohdmaazkhan0074@gmail.com,linkedin.com/in/mohdmaz
+6,"Shamim Ahmad",Pachperwa,"Uttar Pradesh",India,"Data Science",4,0,shamimkhan1561@gmail.com,linkedin.com/in/shamim-ahmad-317898201
+7,"Omprakash Pandit",Saharsa,Bihar,India,Full-Stack,4,0,omprakashpandit939@gmail.com,linkedin.com/in/omprakash524
+8,"Md Parvez",Saharsa,Bihar,India,"Machine Learning",4,0,mdparvezsmp813@gmail.com,linkedin.com/in/md-parvez-63933b201
+9,"Satish Kumar",Saharsa,Bihar,India,"Data Science",4,0,satish@gmail.com,linkedin.com/in/kumarsatish0
+10,"Amit Sharma",Patna,Bihar,India,"Machine Learning",4,0,amit@gmail.com,linkedin.com/in/amitsharma
+11,"Priya Singh",Ranchi,Jharkhand,India,Full-Stack,3,0,priya@gmail.com,linkedin.com/in/priyasingh
+12,"Raj Patel",Varanasi,"Uttar Pradesh",India,"Data Science",2,0,raj@gmail.com,linkedin.com/in/rajpatel
+13,"Neha Gupta",Kanpur,"Uttar Pradesh",India,Full-Stack,2,0,neha@gmail.com,linkedin.com/in/neha-gupta
+14,"Vikas Verma",Indore,"Madhya Pradesh",India,"Machine Learning",4,0,vikas@gmail.com,linkedin.com/in/vikasverma
+15,"Pooja Yadav",Jaipur,Rajasthan,India,Full-Stack,3,0,pooja@gmail.com,linkedin.com/in/poojayadav
+16,"Sachin Kumar",Kolkata,"West Bengal",India,"Data Science",3,0,sachin@gmail.com,linkedin.com/in/sachinkumar
+17,"Nisha Sharma",Mohali,Punjab,India,"Machine Learning",4,0,nisha@gmail.com,linkedin.com/in/nishasharma
+18,"Rahul Verma",Ahmedabad,Gujarat,India,Full-Stack,1,0,rahul@gmail.com,linkedin.com/in/rahulverma
+19,"Anjali Singh",Nagpur,Maharashtra,India,"Data Science",1,0,anjali@gmail.com,linkedin.com/in/anjali-singh
+20,"Rajiv Kumar",Guwahati,Assam,India,"Internet Of Things",4,0,rajiv@gmail.com,linkedin.com/in/rajivkumar
+21,"Raghunath Kumar",Guwahati,Assam,India,"Internet Of Things",4,0,raghunath@gmail.com,linkedin.com/in/raghunathkumar
+22,"Aarav Gupta",Kolkata,"West Bengal",India,"Machine Learning",3,0,aarav.gupta@example.com,linkedin.com/in/aaravgupta
+23,"Ananya Patel",Ahmedabad,Gujarat,India,"Data Science",2,0,ananya.patel@example.com,linkedin.com/in/ananyapatel
+24,"Vikram Singh",Chennai,"Tamil Nadu",India,Full-Stack,4,0,vikram.singh@example.com,linkedin.com/in/vikramsingh
+25,"Ishaan Sharma",Jaipur,Rajasthan,India,IOT,3,0,ishaan.sharma@example.com,linkedin.com/in/ishaansharma
+26,"Neha Reddy",Bengaluru,Karnataka,India,"Cyber Security",2,0,neha.reddy@example.com,linkedin.com/in/neha-reddy
+27,"Aditya Kumar",Patna,Bihar,India,"Machine Learning",3,2,aditya.kumar@example.com,linkedin.com/in/adityakumar
+28,"Alisha Gupta",Lucknow,"Uttar Pradesh",India,"Data Science",2,1,alisha.gupta@example.com,linkedin.com/in/alishagupta
+29,"Rohan Patel",Surat,Gujarat,India,Full-Stack,4,3,rohan.patel@example.com,linkedin.com/in/rohanpatel
+30,"Sneha Singh",Indore,"Madhya Pradesh",India,IOT,3,2,sneha.singh@example.com,linkedin.com/in/snehasingh
+31,"Kunal Sharma",Nagpur,Maharashtra,India,"Cyber Security",2,1,kunal.sharma@example.com,linkedin.com/in/kunalsharma
+32,"Akash Verma",Varanasi,"Uttar Pradesh",India,"Machine Learning",4,2,akash.verma@example.com,linkedin.com/in/akashverma
+33,"Ishita Patel",Allahabad,"Uttar Pradesh",India,"Data Science",3,1,ishita.patel@example.com,linkedin.com/in/ishitapatel
+34,"Rajesh Gupta",Bhopal,"Madhya Pradesh",India,Full-Stack,2,3,rajesh.gupta@example.com,linkedin.com/in/rajeshgupta
+35,"Priyanka Singh",Kanpur,"Uttar Pradesh",India,IOT,4,2,priyanka.singh@example.com,linkedin.com/in/priyankasingh
+36,"Vishal Sharma",Amritsar,Punjab,India,"Cyber Security",3,1,vishal.sharma@example.com,linkedin.com/in/vishalsharma
+37,"Riya Verma",Coimbatore,"Tamil Nadu",India,"Machine Learning",2,2,riya.verma@example.com,linkedin.com/in/riyaverma
+38,"Aryan Patel",Vadodara,Gujarat,India,"Data Science",4,1,aryan.patel@example.com,linkedin.com/in/aryanpatel
+39,"Anjali Gupta",Visakhapatnam,"Andhra Pradesh",India,Full-Stack,3,3,anjali.gupta@example.com,linkedin.com/in/anjali-gupta
+40,"Manish Singh",Jamshedpur,Jharkhand,India,IOT,2,2,manish.singh@example.com,linkedin.com/in/manishsingh
+41,"Nisha Sharma",Agra,"Uttar Pradesh",India,"Cyber Security",4,1,nisha.sharma@example.com,linkedin.com/in/nishasharma
+42,"Abhishek Kumar",Ludhiana,Punjab,India,"Machine Learning",3,2,abhishek.kumar@example.com,linkedin.com/in/abhishekkumar
+43,"Tanvi Patel",Rajkot,Gujarat,India,"Data Science",2,1,tanvi.patel@example.com,linkedin.com/in/tanvipatel
+44,"Rakesh Gupta",Jodhpur,Rajasthan,India,Full-Stack,4,3,rakesh.gupta@example.com,linkedin.com/in/rakeshgupta
+45,"Mona Singh",Raipur,Chhattisgarh,India,IOT,3,2,mona.singh@example.com,linkedin.com/in/monasingh
+46,"Ankit Sharma",Kochi,Kerala,India,"Cyber Security",2,1,ankit.sharma@example.com,linkedin.com/in/ankitsharma
+47,"Aaradhya Verma",Bhubaneswar,Odisha,India,"Machine Learning",4,2,aaradhya.verma@example.com,linkedin.com/in/aaradhyaverma
+48,"Nikhil Tiwari",Gangtok,Sikkim,India,"Machine Learning",3,2,nikhil.tiwari@example.com,linkedin.com/in/nikhiltiwari
+49,"Sanya Singh",Itanagar,"Arunachal Pradesh",India,"Data Science",2,1,sanya.singh@example.com,linkedin.com/in/sanyasingh
+50,"Rajat Reddy",Shillong,Meghalaya,India,Full-Stack,4,3,rajat.reddy@example.com,linkedin.com/in/rajatreddy
+51,"Kirti Sharma",Imphal,Manipur,India,IOT,3,2,kirti.sharma@example.com,linkedin.com/in/kirtisharma
+52,"Sahil Verma",Aizawl,Mizoram,India,"Cyber Security",2,1,sahil.verma@example.com,linkedin.com/in/sahilverma
+53,"Priya Patel",Kohima,Nagaland,India,"Machine Learning",4,2,priya.patel@example.com,linkedin.com/in/priyapatel
+54,"Ankit Gupta",Agartala,Tripura,India,"Data Science",3,1,ankit.gupta@example.com,linkedin.com/in/ankitgupta
+55,"Aarav Singh",Panaji,Goa,India,Full-Stack,2,3,aarav.singh@example.com,linkedin.com/in/aaravsingh
+56,"Harini Reddy","Port Blair","Andaman and Nicobar Islands",India,IOT,4,2,harini.reddy@example.com,linkedin.com/in/harinireddy
+57,"Abhishek Sharma",Leh,Ladakh,India,"Cyber Security",3,1,abhishek.sharma@example.com,linkedin.com/in/abhisheksharma
+58,"Divya Verma",Kavaratti,Lakshadweep,India,"Machine Learning",2,2,divya.verma@example.com,linkedin.com/in/divyaverma
+59,"Amit Patel",Chandigarh,Chandigarh,India,"Data Science",4,1,amit.patel2@example.com,linkedin.com/in/amitpatel2
+60,"Kavya Gupta",Puducherry,Puducherry,India,Full-Stack,3,3,kavya.gupta@example.com,linkedin.com/in/kavyagupta
+61,"Vikas Singh",Daman,"Daman and Diu",India,IOT,2,2,vikas.singh@example.com,linkedin.com/in/vikassingh
+62,"Sanjana Sharma","Dadra and Nagar Haveli",Silvassa,India,"Cyber Security",4,1,sanjana.sharma@example.com,linkedin.com/in/sanjanasharma
+63,"Aditya Verma",Karaikal,Puducherry,India,"Machine Learning",3,2,aditya.verma@example.com,linkedin.com/in/adityaverma
+64,"Sneha Patel",Kavaratti,Lakshadweep,India,"Data Science",2,1,sneha.patel@example.com,linkedin.com/in/snehapatel
+65,"Arvind Singh",Leh,Ladakh,India,Full-Stack,4,3,arvind.singh@example.com,linkedin.com/in/arvindsingh
+66,"Kajal Gupta",Kohima,Nagaland,India,IOT,3,2,kajal.gupta@example.com,linkedin.com/in/kajalgupta
+67,"Rahul Sharma",Itanagar,"Arunachal Pradesh",India,"Cyber Security",2,1,rahul.sharma2@example.com,linkedin.com/in/rahulsharma2
+68,"Vivek Kumar",Guwahati,Assam,India,"Machine Learning",3,2,vivek.kumar@example.com,linkedin.com/in/vivekkumar
+69,"Aisha Khan",Srinagar,"Jammu and Kashmir",India,"Data Science",2,1,aisha.khan2@example.com,linkedin.com/in/aishakhan2
+70,"Rizwan Ahmed",Bengaluru,Karnataka,India,Full-Stack,4,3,rizwan.ahmed@example.com,linkedin.com/in/rizwanahmed
+71,"Neha Patel",Jaipur,Rajasthan,India,IOT,3,2,neha.patel2@example.com,linkedin.com/in/neha2patel
+72,"Imran Khan",Mumbai,Maharashtra,India,"Cyber Security",2,1,imran.khan@example.com,linkedin.com/in/imrankhan
+73,"Ayesha Siddiqui",Lucknow,"Uttar Pradesh",India,"Machine Learning",4,2,ayesha.siddiqui@example.com,linkedin.com/in/ayeshasiddiqui
+74,"Shivani Gupta",Chennai,"Tamil Nadu",India,"Data Science",3,1,shivani.gupta2@example.com,linkedin.com/in/shivanigupta2
+75,"Mohammed Ali",Hyderabad,Telangana,India,Full-Stack,2,3,mohammed.ali@example.com,linkedin.com/in/mohammedali
+76,"Fatima Khan",Kolkata,"West Bengal",India,IOT,4,2,fatima.khan@example.com,linkedin.com/in/fatimakhan
+77,"Aarav Singh",Pune,Maharashtra,India,"Cyber Security",3,1,aarav.singh2@example.com,linkedin.com/in/aaravsingh2
+78,"Zoya Sheikh",Delhi,Delhi,India,"Machine Learning",2,2,zoya.sheikh@example.com,linkedin.com/in/zoyasheikh
+79,"Ibrahim Khan",Ahmedabad,Gujarat,India,"Data Science",4,1,ibrahim.khan@example.com,linkedin.com/in/ibrahimkhan
+80,"Armaan Ansari",Bhopal,"Madhya Pradesh",India,Full-Stack,3,3,armaan.ansari@example.com,linkedin.com/in/armaanansari
+81,"Aisha Akhtar",Chandigarh,Chandigarh,India,IOT,2,2,aisha.akhtar@example.com,linkedin.com/in/aishaakhtar
+82,"Farhan Khan",Jaipur,Rajasthan,India,"Cyber Security",4,1,farhan.khan@example.com,linkedin.com/in/farhankhan
+83,"Nusrat Jahan",Kolkata,"West Bengal",India,"Machine Learning",3,2,nusrat.jahan@example.com,linkedin.com/in/nusratjahan
+84,"Yusuf Khan",Mumbai,Maharashtra,India,"Data Science",2,1,yusuf.khan@example.com,linkedin.com/in/yusufkhan
+85,"Anaya Patel",Ahmedabad,Gujarat,India,Full-Stack,4,3,anaya.patel@example.com,linkedin.com/in/anayapatel
+86,"Ahmed Siddiqui",Lucknow,"Uttar Pradesh",India,IOT,3,2,ahmed.siddiqui@example.com,linkedin.com/in/ahmedsiddiqui
+87,"Sana Khan",Bengaluru,Karnataka,India,"Cyber Security",2,1,sana.khan@example.com,linkedin.com/in/sanakhan
+88,"Mohammed Ahmed",Hyderabad,Telangana,India,"Machine Learning",4,2,mohammed.ahmed@example.com,linkedin.com/in/mohammedahmed

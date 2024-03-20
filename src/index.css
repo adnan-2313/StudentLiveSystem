@@ -1,35 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  
+  font-family: 'Poppins', sans-serif;
  
+}
+html{
+  scroll-behavior: smooth;
 }
 body{
   /* background-image: url("https://images.shiksha.com/mediadata/images/1488259134phpShnPJa.jpeg"); */
-  background-image: url("https://images.shiksha.com/mediadata/images/1488259134phpShnPJa.jpeg");
+  background: rgb(37,7,7);
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(90deg, rgba(37,7,7,1) 0%, rgba(51,7,7,1) 50%, rgba(59,5,5,1) 100%);
+  /* background: linear-gradient(90deg, rgba(34,33,33,1) 0%, rgba(36,31,31,1) 69%, rgba(60,58,58,1) 100%); */
   z-index: -1;
   filter: blur();
   background-repeat: no-repeat;
   background-size:100%;
-}
-.header2{
-  z-index: 5;
-  display: flex;
-  justify-content: flex-start;
-  width: 100%;
-  height: 50px;
-  background-color:white;
-  background-image: url("./navbar_bg_img.png");
-  /* background:transparent; */
-  background-position: 100%;
-  background-repeat: no-repeat;
-  font-size: 12px;
-  color: #880001;
-  border-bottom: 2px solid  grey;
-  /* padding: 10px; */
-  padding-left: 100px;
-  padding: 10px;
 }
 
 .home_head{
@@ -38,6 +28,11 @@ body{
   /* filter: blur(20px) */
 }
 .home_head{
+  /* background: rgb(50,50,50);
+  background: linear-gradient(90deg, rgba(50,50,50,1) 0%, rgba(68,65,65,1) 50%, rgba(79,77,77,1) 100%); */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 90%, 0 100%);
+  background: rgb(34,33,33);
+  background: linear-gradient(90deg, rgba(34,33,33,1) 0%, rgba(36,31,31,1) 77%, rgba(51,48,48,1) 100%);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -48,7 +43,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position:center ;
-  height: 500px;
+  height: 600px;
   width: 100%;
   font-size: 24px;
   color:white;
@@ -67,34 +62,45 @@ body{
   width: 100%;
   justify-content: center;
   padding: 50px 50px 50px;
-  height: 250px;
+  height: 400px;
   color: white;
-  font-size: 30px;
-  background-color: #880001;
+  font-size: 20px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 90%, 0 100%);
+  background: rgb(37,7,7);
+  background: linear-gradient(90deg, rgba(37,7,7,1) 0%, rgba(51,7,7,1) 50%, rgba(59,5,5,1) 100%);
   box-shadow: 0px 1px 1px 1px rgb(41, 40, 40);
   
 }
 .para2{
   
   background-repeat: no-repeat;
- 
+  height: 500px;
   width: 100%;
-  /* justify-content: flex-start; */
+  justify-content: center;
+  align-items: center;
   padding: 50px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 90%, 0 100%);
   /* height: 200px; */
-  color: black;
+  background: rgb(34,33,33);
+  background: linear-gradient(90deg, rgba(34,33,33,1) 0%, rgba(36,31,31,1) 77%, rgba(51,48,48,1) 100%);
+  color: white;
   font-size: 30px;
-  background-color: #f6f6f6;
+  
   >ul{
     display: flex;
     flex-direction: row;
     list-style: none;
-    height: 250px;
+    height: 300px;
+    margin-top: 80px;
     >li{
-      background-image: url("self-pattern.svg");
+      background: rgb(34,33,33);
+      background: linear-gradient(90deg, rgba(34,33,33,1) 0%, rgba(36,31,31,1) 77%, rgba(51,48,48,1) 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image:linear-gradient(to down,rgba(246, 246, 246,0.2),rgba(248, 240, 240,0.2),) url("self-pattern.svg");
       box-shadow: 2px 2px 2px 1px black;
-      
-      font-size: 15px;
+      font-size: 20px;
       margin: 20px;
       padding: 20px;
       border-radius: 15px;
@@ -103,6 +109,7 @@ body{
       cursor: pointer;
       transition: 0.5s;
       transform: scale(1.1);
+      
     }
     >li:not(hover){
       transition: 0.5s;
@@ -117,7 +124,7 @@ footer{
   text-align: center;
   left: 0;
   bottom: 0;
-  background-color: #880001;
+ 
   color: white;
   font-size: 10px;
   >h1{

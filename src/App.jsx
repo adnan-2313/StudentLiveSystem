@@ -3,11 +3,12 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import SearchStudent from './Components/SearchStudent';
 import SearchFaculty from './Components/SearchFaculty';
 import SearchAlumini from './Components/SearchAlumini';
-import Header from './Components/Header';
+// import Header from './Components/Header';
+import StudentCard from './Components/StudentCard';
 const App = () => {
   return (
     <>
-    <Header></Header>
+     
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>}/> 
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/searchfaculty" element={<SearchFaculty/>}/> 
           <Route path="/searchalumini" element={<SearchAlumini/>}/> 
           <Route path="/myprofile" element={<SearchAlumini/>}/> 
+          <Route path="/card" element={<StudentCard/>}/> 
         </Routes>
       </BrowserRouter>
       
