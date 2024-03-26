@@ -8,8 +8,6 @@
 
 .header1{
   
-    
-   
     top:0;
     overflow: hidden;
     background-color:#323232;
@@ -74,11 +72,13 @@
   .nav_li:hover{
     transition: 0.2s;
     transform: scale(1.1);
-    color:grey;
+    /* color:grey; */
+    color: #7e2e34;
 
 }
-.nav_li:active{
-    border: 2px solid red;
-    color:grey;
+.active{
+    >.nav_li{
+      color: #520f15;
+    }
     /* border: 2px solid red; */
 }

@@ -1,136 +1,198 @@
-import  { useState } from 'react';
+import { useState } from "react";
+import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 import { CiSearch } from "react-icons/ci";
-import styled from 'styled-components';
-import studentDetailsAPI from './studentDetailsAPI'; // Importing API data from file
-
-const Section=styled.section`
-  /* border: 2px solid red; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
+import Button from '@mui/material/Button';
+const Section = styled.section`
+  position: relative;
   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: rgb(34,33,33);
+  background: linear-gradient(90deg, rgba(34,33,33,1) 0%, rgba(36,31,31,1) 77%, rgba(51,48,48,1) 100%);
+`;
 
-`
 const Table = styled.table`
-  background-color: rgba(0,0,0,0.2);
-  /* backdrop-filter: blur(); */
-  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2), 2px 0px 2px 2px rgba(0,0,0,0.2);
-  width: 70%;
+  
+  width: 90%;
+  background-color: #403d3d;
+  backdrop-filter: blur();
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
   border-collapse: collapse;
-  margin-top: 20px;
+  margin: 1em;
+  
 `;
 
 const TableRow = styled.tr`
   &:nth-child(even) {
-    background-color: #f2f2f2;
+    
+    background-color: #0f0f0f;
   }
-`;
+  &:hover {
+    background-color: grey;
+  }
+  `;
+  const TableHead = styled.thead`
+    
+    background: #0a0909;
+    border-radius: 0.25em;
+    border-collapse: collapse;
+    margin: 1em;
+  `;
 
 const TableHeader = styled.th`
-  background-color: #4caf50;
-  color: white;
-  padding: 8px;
+  
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
   text-align: left;
 `;
 
 const TableCell = styled.td`
-  padding: 8px;
-  border-bottom: 1px solid #ddd;
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+`;
+
+const Input = styled.input`
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  min-width: 350px;
+  font-size: 18px;
+  height: 50px;
+  background-color:aliceblue;
+  border: none;
+  outline: none;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+`;
+
+const Button1 = styled.button`
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  
+
+  background:transparent;
+  color: white;
+  cursor: pointer;
+`;
+
+const Search = styled.div`
+  backdrop-filter: blur();
+  top: 30px;
+  
+  border-radius: 10px;
+  background: transparent;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  align-items: center;
+`;
+
+const NotFound = styled.p`
+  text-align: center;
+  font-weight: bold;
+`;
+
+const SectionTable = styled.div`
+  margin-top:100px;
+  display: flex;
+  justify-content: center;
+  margin-bottom:100px;
+  background: rgb(34,33,33);
+  background: linear-gradient(90deg, rgba(34,33,33,1) 0%, rgba(36,31,31,1) 77%, rgba(51,48,48,1) 100%);
+`
+const Tbody = styled.tbody`
+
+  transition: background 0.25s ease;
   &:hover{
-    cursor: pointer;
-    border: 2px solid red;
-    transform: scale(1.1);
+    background: #014055;
   }
 `;
 
-const StudentTable = () => {
+
+const ProjectTable = ({ projects }) => (
+  <Table>
+   <TableHead>
+      <TableRow>
+        <TableHeader>Name</TableHeader>
+        <TableHeader>Registration Number</TableHeader>
+        <TableHeader>Email</TableHeader>
+        <TableHeader>Project Name</TableHeader>
+        <TableHeader>Domain</TableHeader>
+      </TableRow>
+    </TableHead>
+    <Tbody>
+      {Object.keys(projects).map((key) => {
+        const project = projects[key];
+        return (
+          <TableRow key={key}>
+            <TableCell>
+                {project.name}
+            </TableCell>
+            <TableCell>{project.reg_no}</TableCell>
+            <TableCell>{project.email}</TableCell>
+            <TableCell>{project.project_name}</TableCell>
+            <TableCell>{project.project_domain}</TableCell>
+          </TableRow>
+        );
+      })}
+    </Tbody>
+  </Table>
+);
+
+const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState('');
+  const [searchResults, setSearchResults] = useState(null);
+  const [notFound, setNotFound] = useState(false);
 
-  const filteredStudents = Object.values(studentDetailsAPI).filter(student =>
-    searchTerm === '' || student.project_name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
-  
-  const Search = styled.div`
-  display: flex;
-
-
-  `
-  const Input = styled.input`
-      // background-color: transparent;
-      backdrop-filter: blur(10px);
-      display :flex;
-      justify-content: center;
-      align-items: center;
-      padding: 10px;
-      position: relative;
-      top:50px;
-      margin-left: 500px;
-      min-height: 50px;
-      min-width: 350px;
-      border: none;
-      outline: none;
-      border-bottom-left-radius:10px;
-      border-top-left-radius:10px;
-      box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
-  `
-  const Button = styled.button`
-    display: flex;
-    display :flex;
-    justify-content: center;
-      align-items: center;
-      position: relative;
-      top:50px;
-      /* margin-left: 500px; */
-      min-height: 50px;
-      min-width: 50px;
-      font-size: 20px;
-      border: none;
-      outline: none;
-      border-bottom-right-radius:10px;
-      border-top-right-radius:10px;
-      box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
-  `
+  const handleSearch = async () => {
+    if (!searchTerm.trim()) return; // Don't search if the search term is empty or only contains whitespace
+    try {
+      const response = await fetch(`http://127.0.0.1:5000/projects?project_des=${searchTerm}`);
+      const data = await response.json();
+      if (Object.keys(data).length === 0) {
+        setNotFound(true);
+        setSearchResults(null);
+      } else {
+        setSearchResults(data);
+        setNotFound(false);
+      }
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
 
   return (
-    <div>
-    <Search>
-      <Input
-        type="text"
-        name="search"
-        value={searchTerm}
-        onChange={e => setSearchTerm(e.target.value)}
-      ></Input>
-      <Button><CiSearch/></Button>
-    </Search>
-      <Section>
-      <Table>
-        <thead>
-          <TableRow>
-            <TableHeader>Name</TableHeader>
-            <TableHeader>Project Name</TableHeader>
-            <TableHeader>Email</TableHeader>
-            <TableHeader>LinkedIn</TableHeader>
-          </TableRow>
-        </thead>
-        <tbody>
-          {filteredStudents.map(student => (
-            <TableRow key={student.reg_no}>
-              <TableCell>{student.name}</TableCell>
-              <TableCell>{student.project_name}</TableCell>
-              <TableCell>{student.email}</TableCell>
-              <TableCell>
-                <a href={student.linkedin} target="_blank" rel="noopener noreferrer">
-                  LinkedIn
-                </a>
-              </TableCell>
-            </TableRow>
-          ))}
-        </tbody>
-      </Table>
-      </Section>
-    </div>
+    <Section>
+      <Search>
+        <Input
+          type="text"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          placeholder="Enter project description"
+          autocomplete="on"
+        />
+      <Button  onClick={handleSearch} sx={{width: "60px",height:"50px",fontSize:"30px",color:"white",borderRadius:"10px"}}><CiSearch/></Button>
+      </Search>
+      <SectionTable>
+      {notFound ? <NotFound>No results found</NotFound> : searchResults && <ProjectTable projects={searchResults} />}
+      </SectionTable>
+    </Section>
   );
 };
 
-export default StudentTable;
+export default SearchBar;

@@ -1,7 +1,7 @@
 // import React from 'react'
 import logo from "../logo.svg";
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
+import { NavLink,Router } from "react-router-dom";
 
 import "./Navbar.css";
 const ButtonContainer = styled.div`
@@ -39,7 +39,8 @@ const GitHubButton = styled.button`
 
 const Navbar = () => {
   return (
-    <>
+    
+    
       <header className="header1">
       
       <div className="logo1">
@@ -48,10 +49,10 @@ const Navbar = () => {
         <nav className="navbar1">
         
             <ul className="nav_ul">
-                <NavLink className="link" to="/"><li className="nav_li">Home</li></NavLink>
-                <NavLink className="link" to="/searchfaculty"><li className="nav_li">Search Faculty</li></NavLink>
-                <NavLink className="link" to="/searchstudent"><li className="nav_li">Search Students</li></NavLink>
-                <NavLink className="link" to="/searchalumini"><li className="nav_li">Search Alumini</li></NavLink>
+                <NavLink  className="link" to="/"><li className="nav_li">Home</li></NavLink>
+                <NavLink  className="link" to="/searchfaculty"><li className="nav_li">Search Faculty</li></NavLink>
+                <NavLink  className="link" to="/searchstudent"><li className="nav_li">Search Students</li></NavLink>
+                <NavLink  className="link" to="/searchalumini"><li className="nav_li">Search Alumini</li></NavLink>
                 {/* <NavLink className="link" to="/addprofile"><li className="nav_li">Profile</li></NavLink> */}
                 {/* <NavLink className="link" to="/myprofile"><li className="nav_li">My Profile</li></NavLink> */}
                 
@@ -64,7 +65,8 @@ const Navbar = () => {
          
         </div>
       </header>
-    </>
+    
+    
   )
 }
 
