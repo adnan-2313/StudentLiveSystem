@@ -16,8 +16,10 @@ def home():
 @app.route('/projects')
 def projects():
     project_des = request.args.get('project_des')
+    # minor = request.args.get('minor')
     response = db.search_project(project_des)
     print("Response ", response)
+    # response = db.search_project(project_des, minor)
     result = {}
     count = 1
     for detail in response:
@@ -43,6 +45,40 @@ def projects():
 
     stu_list = jsonify(result)
     return stu_list
+
+@app.route('/minor')
+def minor():
+    minor_detail = request.args.get('minor_detail')
+    response = db.student_minor(minor_detail)
+    print("Response ", response)
+    result = {}
+    count = 1
+    for detail in response:
+        temp_data = {
+            "reg_no": detail[0],
+            "project_name": detail[1],
+            "project_domain": detail[2],
+            "project_des": detail[3],
+            "project_date": detail[4],
+            "tech_used": detail[5],
+            "name": detail[7],
+            "city": detail[8],
+            "state": detail[9],
+            "country": detail[10],
+            "minor": detail[11],
+            "year": detail[12],
+            "num_projects": detail[13],
+            "email": detail[14],
+            "linkedin": detail[15]
+        }
+        result["student-{}".format(count)] = temp_data
+        count = count + 1
+
+    stu_list = jsonify(result)
+    return stu_list
+
+
+
 
 
 # if __name__ == "_main_":

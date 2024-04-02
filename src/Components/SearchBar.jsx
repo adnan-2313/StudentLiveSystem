@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 import { CiSearch } from "react-icons/ci";
 import Button from '@mui/material/Button';
 const Section = styled.section`
@@ -89,14 +90,24 @@ const Button1 = styled.button`
   color: white;
   cursor: pointer;
 `;
-
+const SearchContainer = styled.div`
+  width: 100%;
+  height: 150px;
+  background-color:#323232;
+  /* border:1px solid white; */
+  overflow: hidden;
+  background-image: url("../self-pattern.svg");
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+`
 const Search = styled.div`
   backdrop-filter: blur();
   top: 30px;
   
   border-radius: 10px;
   background: transparent;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  
   position: relative;
   display: flex;
   align-items: center;
@@ -122,39 +133,81 @@ const Tbody = styled.tbody`
     background: #014055;
   }
 `;
+const TableCellClickable = styled.td`
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+  cursor: pointer; /* Add cursor pointer to indicate clickability */
+`;
 
+const FilterContainer = styled.div`
+position: absolute;
+top:85px;
+left: 400px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+`;
 
-const ProjectTable = ({ projects }) => (
-  <Table>
-   <TableHead>
-      <TableRow>
-        <TableHeader>Name</TableHeader>
-        <TableHeader>Registration Number</TableHeader>
-        <TableHeader>Email</TableHeader>
-        <TableHeader>Project Name</TableHeader>
-        <TableHeader>Domain</TableHeader>
-      </TableRow>
-    </TableHead>
-    <Tbody>
-      {Object.keys(projects).map((key) => {
-        const project = projects[key];
-        return (
-          <TableRow key={key}>
-            <TableCell>
+const FilterLabel = styled.label`
+  margin-right: 10px;
+  color: white;
+`;
+
+const RadioButton = styled.input`
+  margin-right: 5px;
+`;
+const ProjectTable = ({ projects }) => {
+  const navigate = useNavigate(); 
+  // Initialize useNavigate hook
+  const goto = (project) => {
+   console.log(project)
+    navigate("/card",{state:
+      {name:project.name,
+      email:project.email,
+      project_name:project.project_name,
+      project_domain:project.project_domain,
+      minor:project.minor,
+      linkedin:project.linkedin,
+    }}); // Navigate to the project detail page
+  };
+
+  return (
+    <Table>
+      <TableHead>
+        <TableRow>
+          <TableHeader>Name</TableHeader>
+          <TableHeader>Registration Number</TableHeader>
+          <TableHeader>Email</TableHeader>
+          <TableHeader>Project Name</TableHeader>
+          <TableHeader>Domain</TableHeader>
+        </TableRow>
+      </TableHead>
+      <Tbody>
+        {Object.keys(projects).map((key) => {
+          const project = projects[key];
+          return (
+            <TableRow key={key}>
+              {/* Make the TableCellClickable and pass the project to the goto function */}
+              <TableCellClickable onClick={() => goto(project)}>
                 {project.name}
-            </TableCell>
-            <TableCell>{project.reg_no}</TableCell>
-            <TableCell>{project.email}</TableCell>
-            <TableCell>{project.project_name}</TableCell>
-            <TableCell>{project.project_domain}</TableCell>
-          </TableRow>
-        );
-      })}
-    </Tbody>
-  </Table>
-);
+              </TableCellClickable>
+              <TableCell>{project.reg_no}</TableCell>
+              <TableCell>{project.email}</TableCell>
+              <TableCell>{project.project_name}</TableCell>
+              <TableCell>{project.project_domain}</TableCell>
+            </TableRow>
+          );
+        })}
+      </Tbody>
+    </Table>
+  );
+};
+
 
 const SearchBar = () => {
+  
+  const [filterOption, setFilterOption] = useState("Name");
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState(null);
   const [notFound, setNotFound] = useState(false);
@@ -174,20 +227,68 @@ const SearchBar = () => {
     } catch (error) {
       console.error('Error fetching data:', error);
     }
+    console.log("Searching for:", searchTerm);
+    console.log("Filtering by:", filterOption);
   };
 
   return (
     <Section>
+    <SearchContainer>
       <Search>
         <Input
           type="text"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder="Enter project description"
-          autocomplete="on"
+          autoComplete="on"
         />
       <Button  onClick={handleSearch} sx={{width: "60px",height:"50px",fontSize:"30px",color:"white",borderRadius:"10px"}}><CiSearch/></Button>
+
       </Search>
+      <FilterContainer>
+          <FilterLabel>
+            <RadioButton
+              type="radio"
+              name="filter"
+              value="Machine Learning"
+              checked={filterOption === "Name"}
+              onChange={() => setFilterOption("Name")}
+            />
+            Machine learning
+          </FilterLabel>
+          <FilterLabel>
+            <RadioButton
+              type="radio"
+              name="filter"
+              value="Full Stack"
+              checked={filterOption === "Registration Number"}
+              onChange={() => setFilterOption("Registration Number")}
+            />
+            Full Stack
+          </FilterLabel>
+          <FilterLabel>
+            <RadioButton
+              type="radio"
+              name="filter"
+              value="Data Science"
+              checked={filterOption === "Registration Number"}
+              onChange={() => setFilterOption("Registration Number")}
+            />
+            Data Science 
+          </FilterLabel>
+          <FilterLabel>
+            <RadioButton
+              type="radio"
+              name="filter"
+              value="Cyber Secuity"
+              checked={filterOption === "Registration Number"}
+              onChange={() => setFilterOption("Registration Number")}
+            />
+            Cyber Secuity
+          </FilterLabel>
+          {/* Add more radio buttons for other filter options */}
+        </FilterContainer>
+       </SearchContainer> 
       <SectionTable>
       {notFound ? <NotFound>No results found</NotFound> : searchResults && <ProjectTable projects={searchResults} />}
       </SectionTable>

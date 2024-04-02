@@ -90,9 +90,16 @@ const Span = styled.span`
   margin-left: 5px;
 `;
 
+
+
+// export default StudentCard;
 const StudentCard = () => {
+
   const location = useLocation();
-  const { name, regNo, email, projectName, projectDomain } = location.state;
+ const {state} = location;
+  const {name,email,project_name,project_domain,minor,linkedin} = state;
+  
+  console.log()
 
   return (
     <>
@@ -115,13 +122,12 @@ const StudentCard = () => {
           <Projects>
             <h4>Projects:</h4>
             <Span>
-              {projectName} <b>Domain</b> {projectDomain}
+              <b>{project_name}</b>
             </Span>
           </Projects>
           <Skills>
             <h4>Skills:</h4>
-            <Span>FrontEnd,</Span>
-            <Span>Machine Learning</Span>
+            <Span>Hello</Span>
           </Skills>
         </Card>
       </CardContainer>
