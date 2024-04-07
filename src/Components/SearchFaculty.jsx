@@ -7,7 +7,7 @@ const SearchFaculty = () => {
       <section>
         
         <Navbar></Navbar>
-        <SearchBar holder="faculty"/>
+        {/* <SearchBar holder="faculty"/> */}
       </section>
     </>
   )

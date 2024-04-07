@@ -9,6 +9,7 @@ import { AppContext } from "./Context";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
+
 const Span = styled.span`
 font-family: "Poppins", sans-serif;
 display: flex;
@@ -75,7 +76,7 @@ const MainHeader = () => {
     });
   }, []);
 
-
+  const nav  = useNavigate();
  
   return (
     <>

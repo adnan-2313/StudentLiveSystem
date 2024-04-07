@@ -36,5 +36,17 @@ class Database:
         except mysql.connector.Error as err:
             print(f'Error during query execution: {err}')
 
+    def search_student(self, reg_no):
+        try:
+            self.mycursor.execute("""SELECT * FROM project t1 JOIN student t2 ON t1.registration_number = t2.registration_number
+                                    WHERE t2.registration_number={} ORDER BY t1.project_date DESC""".format(reg_no))
+            result = self.mycursor.fetchall()
+            return result
+
+        except mysql.connector.Error as err:
+            print(f'Error during query execution: {err}')
+
+
+
 
 

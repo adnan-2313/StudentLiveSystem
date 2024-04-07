@@ -5,7 +5,7 @@ const SearchAlumini = () => {
   return (
     <>
      <Navbar></Navbar>
-      <SearchBar holder="Alumini"></SearchBar>
+      {/* <SearchBar holder="Alumini"></SearchBar> */}
     </>
   )
 }

@@ -2,8 +2,24 @@
 import logo from "../logo.svg";
 import styled from "styled-components";
 import { NavLink,Router } from "react-router-dom";
-
+import { AiFillHome } from "react-icons/ai";
 import "./Navbar.css";
+
+const Nav = styled.div`
+    background-color: #323232;;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    @media screen and (max-width: 960px) {
+      transition: 0.8 all ease;
+      width: 100%;
+    }
+`
 const ButtonContainer = styled.div`
   display: flex;
   align-items: center;
@@ -49,7 +65,7 @@ const Navbar = () => {
         <nav className="navbar1">
         
             <ul className="nav_ul">
-                <NavLink  className="link" to="/"><li className="nav_li">Home</li></NavLink>
+                <NavLink  className="link" to="/"><li className="nav_li">< AiFillHome style={{fontSize:"25px"}} /></li></NavLink>
                 <NavLink  className="link" to="/searchfaculty"><li className="nav_li">Search Faculty</li></NavLink>
                 <NavLink  className="link" to="/searchstudent"><li className="nav_li">Search Students</li></NavLink>
                 <NavLink  className="link" to="/searchalumini"><li className="nav_li">Search Alumini</li></NavLink>

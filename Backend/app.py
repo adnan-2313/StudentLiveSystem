@@ -6,7 +6,8 @@ import database
 db = database.Database()
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:5173"])
+# CORS(app, origins=["http://localhost:5173"])
+CORS(app, resources={r"/*": {"origins": "*"}})  # Allow access from all origins
 # print("hello2")
 
 @app.route('/')
@@ -77,7 +78,38 @@ def minor():
     stu_list = jsonify(result)
     return stu_list
 
+@app.route('/student')
+def student():
+    reg_no = request.args.get('reg_no')
+    # minor = request.args.get('minor')
+    response = db.search_student(reg_no)
+    print("Response ", response)
+    # response = db.search_project(project_des, minor)
+    result = {}
+    count = 1
+    for detail in response:
+        temp_data = {
+            "reg_no" : detail[0],
+            "project_name": detail[1],
+            "project_domain":detail[2],
+            "project_des": detail[3],
+            "project_date": detail[4],
+            "tech_used": detail[5],
+            "name":detail[7],
+            "city":detail[8],
+            "state":detail[9],
+            "country":detail[10],
+            "minor":detail[11],
+            "year":detail[12],
+            "num_projects":detail[13],
+            "email":detail[14],
+            "linkedin":detail[15]
+        }
+        result["project-{}".format(count)] = temp_data
+        count = count + 1
 
+    stu_projects = jsonify(result)
+    return stu_projects
 
 
 
