@@ -59,7 +59,7 @@ const Navbar = () => {
     
       <header className="header1">
       
-      <div className="logo1">
+      <div className="">
         <img src={logo} alt=""  />
         </div>
         <nav className="navbar1">
