@@ -1,0 +1,96 @@
+name,uid,qualification,email,department,domain,phone_number,project_guide,no_of_research_paper,no_of_students_guided
+"Jaswinder Singh",JS006,M.Tech,jaswinder.singh@university.edu,"Computer Science","Data Science","+91 9876543201","Predictive Analytics for Healthcare",3,6
+"Baljeet Kaur",BK007,Ph.D,baljeet.kaur@university.edu,Civil,"Transportation Engineering","+91 8765432100","Traffic Flow Optimization",5,9
+"Sukhwinder Singh",SS008,M.Tech,sukhwinder.singh@university.edu,"Electrical Engineering","Control Systems Engineering","+91 7654321090","PID Controller Design",4,7
+"Gurmeet Kaur",GK009,B.Tech,gurmeet.kaur@university.edu,"Mechanical Engineering","Manufacturing Engineering","+91 6543210980","CNC Machining Optimization",2,4
+"Harmanpreet Singh",HS010,M.Tech,harmanpreet.singh@university.edu,ECE,"Signal Processing","+91 5432109870","Speech Recognition Systems",6,11
+"Rajwinder Kaur",RK011,M.Tech,rajwinder.kaur@university.edu,"Computer Science",Cybersecurity,"+91 9876543211","Intrusion Detection Systems",3,5
+"Jatinder Singh",JS012,Ph.D,jatinder.singh@university.edu,Civil,"Environmental Engineering","+91 8765432101","Wastewater Treatment Technologies",5,8
+"Ravneet Kaur",RK013,M.Tech,ravneet.kaur@university.edu,"Electrical Engineering","Renewable Energy Systems","+91 7654321091","Solar Power Forecasting",4,6
+"Sandeep Singh",SS014,B.Tech,sandeep.singh@university.edu,"Mechanical Engineering","Thermodynamics and Heat Transfer","+91 6543210981","Energy Efficiency in HVAC Systems",2,3
+"Amandeep Kaur",AK015,M.Tech,amandeep.kaur@university.edu,ECE,"Wireless Communication","+91 5432109871","5G Network Optimization",6,10
+"Gurpreet Singh",GS016,M.Tech,gurpreet.singh@university.edu,"Computer Science","Machine Learning","+91 9876543212","Natural Language Processing",3,7
+"Baljit Kaur",BK017,Ph.D,baljit.kaur@university.edu,Civil,"Structural Engineering","+91 8765432102","Bridge Health Monitoring Systems",5,9
+"Amarpreet Singh",AS018,M.Tech,amarpreet.singh@university.edu,"Electrical Engineering","Power Systems Engineering","+91 7654321092","Fault Detection in Power Systems",4,6
+"Manpreet Kaur",MK019,B.Tech,manpreet.kaur@university.edu,"Mechanical Engineering","Manufacturing Engineering","+91 6543210982","Additive Manufacturing Processes",2,4
+"Jagdeep Singh",JS020,M.Tech,jagdeep.singh@university.edu,ECE,"Embedded Systems","+91 5432109872","Internet of Things (IoT) Applications",6,11
+"Rajinder Kaur",RK021,M.Tech,rajinder.kaur@university.edu,"Computer Science","Data Science","+91 9876543213","Predictive Maintenance in Manufacturing",3,5
+"Gurvinder Singh",GS022,Ph.D,gurvinder.singh@university.edu,Civil,"Transportation Engineering","+91 8765432103","Public Transport Planning",5,8
+"Harpreet Kaur",HK023,M.Tech,harpreet.kaur@university.edu,"Electrical Engineering","Control Systems Engineering","+91 7654321093","Optimal Control of Renewable Energy Systems",4,6
+"Sukhbir Singh",SS024,B.Tech,sukhbir.singh@university.edu,"Mechanical Engineering","Thermodynamics and Heat Transfer","+91 6543210983","Energy Harvesting Techniques",2,3
+"Rupinder Kaur",RK025,M.Tech,rupinder.kaur@university.edu,ECE,"Signal Processing","+91 5432109873","Radar Signal Processing",6,10
+"Prabhjot Singh",PS026,M.Tech,prabhjot.singh@university.edu,"Computer Science",Cybersecurity,"+91 9876543214","Blockchain Security",3,7
+"Gurmukh Singh",GS027,Ph.D,gurmukh.singh@university.edu,Civil,"Environmental Engineering","+91 8765432104","Air Pollution Monitoring Systems",5,9
+"Komalpreet Kaur",KK028,M.Tech,komalpreet.kaur@university.edu,"Electrical Engineering","Renewable Energy Systems","+91 7654321094","Microgrid Control Strategies",4,6
+"Gursharan Singh",GS029,B.Tech,gursharan.singh@university.edu,"Mechanical Engineering","Manufacturing Engineering","+91 6543210984","Advanced CNC Machining Techniques",2,4
+"Jaswinder Kaur",JK030,M.Tech,jaswinder.kaur@university.edu,ECE,"Wireless Communication","+91 5432109874","Smart Antenna Systems",6,11
+"Balwinder Singh",BS031,M.Tech,balwinder.singh@university.edu,"Computer Science","Machine Learning","+91 9876543215","Recommendation Systems",3,5
+"Amandeep Kaur",AK032,Ph.D,amandeep.kaur@university.edu,Civil,"Structural Engineering","+91 8765432105","Earthquake Resistant Design of Buildings",5,8
+"Jagdeep Singh",JS033,M.Tech,jagdeep.singh@university.edu,"Electrical Engineering","Power Systems Engineering","+91 7654321095","Distributed Generation Systems",4,6
+"Harpreet Kaur",HK034,B.Tech,harpreet.kaur@university.edu,"Mechanical Engineering","Thermodynamics and Heat Transfer","+91 6543210985","Renewable Energy Conversion Systems",2,3
+"Sukhpreet Singh",SS035,M.Tech,sukhpreet.singh@university.edu,ECE,"Signal Processing","+91 5432109875","Image Processing Techniques",6,10
+"Navpreet Kaur",NK036,M.Tech,navpreet.kaur@university.edu,"Computer Science","Data Science","+91 9876543216","Sentiment Analysis in Social Media",3,7
+"Gurjit Singh",GS037,Ph.D,gurjit.singh@university.edu,Civil,"Transportation Engineering","+91 8765432106","Traffic Signal Synchronization",5,9
+"Jaspreet Kaur",JK038,M.Tech,jaspreet.kaur@university.edu,"Electrical Engineering","Control Systems Engineering","+91 7654321096","Model Predictive Control",4,6
+"Amanpreet Singh",AS039,B.Tech,amanpreet.singh@university.edu,"Mechanical Engineering","Manufacturing Engineering","+91 6543210986","3D Printing Applications",2,4
+"Harjinder Kaur",HK040,M.Tech,harjinder.kaur@university.edu,ECE,"Wireless Communication","+91 5432109876","Cognitive Radio Networks",6,11
+"Kulwinder Singh",KS041,M.Tech,kulwinder.singh@university.edu,"Computer Science",Cybersecurity,"+91 9876543217","Penetration Testing",3,5
+"Amandeep Kaur",AK042,Ph.D,amandeep.kaur@university.edu,Civil,"Environmental Engineering","+91 8765432107","Solid Waste Management",5,8
+"Jaspreet Singh",JS043,M.Tech,jaspreet.singh@university.edu,"Electrical Engineering","Renewable Energy Systems","+91 7654321097","Wind Power Integration",4,6
+"Amanpreet Kaur",AK044,B.Tech,amanpreet.kaur@university.edu,"Mechanical Engineering","Thermodynamics and Heat Transfer","+91 6543210987","Heat Exchanger Design",2,3
+"Harmandeep Singh",HS045,M.Tech,harmandeep.singh@university.edu,ECE,"Signal Processing","+91 5432109877","Biomedical Signal Processing",6,10
+"Ravinder Kaur",RK046,M.Tech,ravinder.kaur@university.edu,"Computer Science","Machine Learning","+91 9876543218","Anomaly Detection in IoT Data",3,7
+"Gurpreet Singh",GS047,Ph.D,gurpreet.singh@university.edu,Civil,"Transportation Engineering","+91 8765432108","Pedestrian Safety Analysis",5,9
+"Jagjit Kaur",JK048,M.Tech,jagjit.kaur@university.edu,"Electrical Engineering","Power Systems Engineering","+91 7654321098","Smart Grid Communication Protocols",4,6
+"Hardeep Singh",HS049,B.Tech,hardeep.singh@university.edu,"Mechanical Engineering","Manufacturing Engineering","+91 6543210988","Lean Manufacturing Practices",2,4
+"Manpreet Kaur",MK050,M.Tech,manpreet.kaur@university.edu,ECE,"Wireless Communication","+91 5432109878","Millimeter Wave Communication Systems",6,11
+"Balwinder Singh",BS051,M.Tech,balwinder.singh@university.edu,"Computer Science","Data Science","+91 9876543219","Customer Churn Prediction",3,5
+"Amanpreet Kaur",AK052,Ph.D,amanpreet.kaur@university.edu,Civil,"Structural Engineering","+91 8765432109","Finite Element Analysis of Bridges",5,8
+"Jasvir Singh",JS053,M.Tech,jasvir.singh@university.edu,"Electrical Engineering","Control Systems Engineering","+91 7654321099","Model-Based Fault Detection",4,6
+"Harpreet Kaur",HK054,B.Tech,harpreet.kaur@university.edu,"Mechanical Engineering","Thermodynamics and Heat Transfer","+91 6543210989","Refrigeration System Optimization",2,3
+"Jaswinder Kaur",JK055,M.Tech,jaswinder.kaur@university.edu,ECE,"Signal Processing","+91 5432109879","Biometric Authentication Systems",6,10
+"Harpreet Singh",HS056,M.Tech,harpreet.singh@university.edu,"Computer Science",Cybersecurity,"+91 9876543220","Network Traffic Analysis",3,7
+"Balwinder Kaur",BK057,Ph.D,balwinder.kaur@university.edu,Civil,"Environmental Engineering","+91 8765432110","Environmental Impact Assessment",5,9
+"Amarpreet Singh",AS058,M.Tech,amarpreet.singh@university.edu,"Electrical Engineering","Renewable Energy Systems","+91 7654321100","Solar Photovoltaic Systems",4,6
+"Gurpreet Kaur",GK059,B.Tech,gurpreet.kaur@university.edu,"Mechanical Engineering","Manufacturing Engineering","+91 6543210990","Metal Forming Processes",2,4
+"Harjinder Singh",HS060,M.Tech,harjinder.singh@university.edu,ECE,"Wireless Communication","+91 5432109880","Channel Coding Techniques",6,11
+"Kuldeep Kaur",KK061,M.Tech,kuldeep.kaur@university.edu,"Computer Science","Machine Learning","+91 9876543221","Fraud Detection in Financial Transactions",3,5
+"Gurmukh Singh",GS062,Ph.D,gurmukh.singh@university.edu,Civil,"Transportation Engineering","+91 8765432111","Traffic Congestion Management",5,8
+"Harjot Kaur",HK063,M.Tech,harjot.kaur@university.edu,"Electrical Engineering","Control Systems Engineering","+91 7654321101","Model Predictive Maintenance",4,6
+"Sukhdev Singh",SS064,B.Tech,sukhdev.singh@university.edu,"Mechanical Engineering","Thermodynamics and Heat Transfer","+91 6543210991","Gas Turbine Performance Optimization",2,3
+"Jaspreet Kaur",JK065,M.Tech,jaspreet.kaur@university.edu,ECE,"Signal Processing","+91 5432109881","Sonar Signal Processing",6,10
+"Baljeet Singh",BS066,M.Tech,baljeet.singh@university.edu,"Computer Science","Data Science","+91 9876543222","Predictive Maintenance in Manufacturing",3,7
+"Rajwinder Kaur",RK067,Ph.D,rajwinder.kaur@university.edu,Civil,"Structural Engineering","+91 8765432112","Earthquake Resistant Design of Structures",5,9
+"Gurjit Singh",GS068,M.Tech,gurjit.singh@university.edu,"Electrical Engineering","Power Systems Engineering","+91 7654321102","Distribution System Reliability",4,6
+"Harmanpreet Kaur",HK069,B.Tech,harmanpreet.kaur@university.edu,"Mechanical Engineering","Manufacturing Engineering","+91 6543210992","Metal Cutting Techniques",2,4
+"Kuldeep Singh",KS070,M.Tech,kuldeep.singh@university.edu,ECE,"Wireless Communication","+91 5432109882","Software-Defined Radio",6,11
+"Amandeep Kaur",AK071,M.Tech,amandeep.kaur@university.edu,"Computer Science",Cybersecurity,"+91 9876543223","Security Information and Event Management",3,5
+"Jasbir Singh",JS072,Ph.D,jasbir.singh@university.edu,Civil,"Environmental Engineering","+91 8765432113","Air Quality Modeling",5,8
+"Manpreet Kaur",MK073,M.Tech,manpreet.kaur@university.edu,"Electrical Engineering","Renewable Energy Systems","+91 7654321103","Energy Storage Systems",4,6
+"Harvinder Singh",HS074,B.Tech,harvinder.singh@university.edu,"Mechanical Engineering","Thermodynamics and Heat Transfer","+91 6543210993","Heat Transfer Enhancement Techniques",2,3
+"Jaspreet Kaur",JK075,M.Tech,jaspreet.kaur@university.edu,ECE,"Signal Processing","+91 5432109883","Biomedical Image Processing",6,10
+"Baljit Singh",BS076,M.Tech,baljit.singh@university.edu,"Computer Science","Machine Learning","+91 9876543224","Predictive Maintenance in Industrial Systems",3,7
+"Rajbir Kaur",RK077,Ph.D,rajbir.kaur@university.edu,Civil,"Structural Engineering","+91 8765432114","Structural Health Monitoring",5,9
+"Harpreet Singh",HS078,M.Tech,harpreet.singh@university.edu,"Electrical Engineering","Power Systems Engineering","+91 7654321104","Power Quality Improvement",4,6
+"Amandeep Kaur",AK079,B.Tech,amandeep.kaur@university.edu,"Mechanical Engineering","Manufacturing Engineering","+91 6543210994","Welding Techniques",2,4
+"Ravinder Kaur",RK080,M.Tech,ravinder.kaur@university.edu,ECE,"Wireless Communication","+91 5432109884","Wireless Sensor Networks",6,11
+"Harjinder Singh",HS081,M.Tech,harjinder.singh@university.edu,"Computer Science","Data Science","+91 9876543225","Text Mining Techniques",3,5
+"Balwinder Kaur",BK082,Ph.D,balwinder.kaur@university.edu,Civil,"Environmental Engineering","+91 8765432115","Water Quality Monitoring Systems",5,8
+"Amarpreet Singh",AS083,M.Tech,amarpreet.singh@university.edu,"Electrical Engineering","Renewable Energy Systems","+91 7654321105","Grid Integration of Renewable Energy",4,6
+"Gurpreet Kaur",GK084,B.Tech,gurpreet.kaur@university.edu,"Mechanical Engineering","Manufacturing Engineering","+91 6543210995","Casting Processes",2,3
+"Harpreet Singh",HS085,M.Tech,harpreet.singh@university.edu,ECE,"Signal Processing","+91 5432109885","Acoustic Signal Processing",6,10
+"Jaspreet Kaur",JK086,M.Tech,jaspreet.kaur@university.edu,"Computer Science",Cybersecurity,"+91 9876543226","Security Assessment of IoT Devices",3,7
+"Balwinder Singh",BS087,Ph.D,balwinder.singh@university.edu,Civil,"Structural Engineering","+91 8765432116","Seismic Analysis of Structures",5,9
+"Amandeep Kaur",AK088,M.Tech,amandeep.kaur@university.edu,"Electrical Engineering","Power Systems Engineering","+91 7654321106","Smart Grid Technologies",4,6
+"Gurjit Singh",GS089,B.Tech,gurjit.singh@university.edu,"Mechanical Engineering","Thermodynamics and Heat Transfer","+91 6543210996","Boiler Efficiency Optimization",2,4
+"Harpreet Kaur",HK090,M.Tech,harpreet.kaur@university.edu,ECE,"Wireless Communication","+91 5432109886","MIMO Systems",6,11
+"Ravinder Singh",RS091,M.Tech,ravinder.singh@university.edu,"Computer Science","Machine Learning","+91 9876543227","Anomaly Detection in Financial Transactions",3,5
+"Gurpreet Kaur",GK092,Ph.D,gurpreet.kaur@university.edu,Civil,"Environmental Engineering","+91 8765432117","Environmental Impact Assessment of Urban Development",5,8
+"Harjot Singh",HS093,M.Tech,harjot.singh@university.edu,"Electrical Engineering","Renewable Energy Systems","+91 7654321107","Solar Inverter Control",4,6
+"Manpreet Kaur",MK094,B.Tech,manpreet.kaur@university.edu,"Mechanical Engineering","Manufacturing Engineering","+91 6543210997","Sheet Metal Forming",2,3
+"Jaspreet Kaur",JK095,M.Tech,jaspreet.kaur@university.edu,ECE,"Signal Processing","+91 5432109887","Real-Time Audio Signal Processing",6,10
+"Balwinder Singh",BS096,M.Tech,balwinder.singh@university.edu,"Computer Science","Data Science","+91 9876543228","Customer Segmentation using Machine Learning",3,7
+"Amandeep Kaur",AK097,Ph.D,amandeep.kaur@university.edu,Civil,"Structural Engineering","+91 8765432118","Finite Element Analysis of Concrete Structures",5,9
+"Gurpreet Singh",GS098,M.Tech,gurpreet.singh@university.edu,"Electrical Engineering","Power Systems Engineering","+91 7654321108","Fault Location in Power Distribution Networks",4,6
+"Harpreet Kaur",HK099,B.Tech,harpreet.kaur@university.edu,"Mechanical Engineering","Thermodynamics and Heat Transfer","+91 6543210998","Refrigeration Cycle Analysis",2,4
+"Jaspreet Kaur",JK100,M.Tech,jaspreet.kaur@university.edu,ECE,"Wireless Communication","+91 5432109888","Millimeter Wave Antenna Design",6,11

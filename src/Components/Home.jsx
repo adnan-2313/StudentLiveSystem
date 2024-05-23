@@ -7,7 +7,6 @@ import img from "../IMG1.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { AppContext } from "./Context";
 import { useNavigate } from "react-router-dom";
-import { useLocation } from "react-router-dom";
 
 
 const Span = styled.span`

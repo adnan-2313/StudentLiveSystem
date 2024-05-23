@@ -1,0 +1,106 @@
+registration_number,name,city,state,country,minor,department,year,num_of_projects,email,linkedIn_id
+1,"Rohit Kumar",Jamshedpur,Jharkhand,India,"Machine Learning","Computer science and engineering",4,0,rk0083764@gmail.com,https://www.linkedin.com/in/rohitkumar1504/
+2,"Dhiman Kumbhakar",Patmda,Jharkhand,India,"Machine Learning","Computer science and engineering",4,0,dhimankumbhakar0@gmail.com,https://www.linkedin.com/in/dhiman-kumbhakar-819558220/
+3,"Uday Narayan",Bhubaneswar,Odisha,India,Full-Stack,"Computer science and engineering",4,0,udaynarayanseth12@gmail.com,linkedin.com/in/uday-narayan-seth
+4,"Adnan Khan",Bareilly,"Uttar Pradesh",India,"Machine Learning","Computer science and engineering",4,0,ak567845@gmail.com,linkedin.com/in/adnankhan123
+5,"mohd maz",Bareilly,"Uttar Pradesh",India,"Machine Learning","Computer science and engineering",4,0,mohdmaazkhan0074@gmail.com,linkedin.com/in/mohdmaz
+6,"Shamim Ahmad",Pachperwa,"Uttar Pradesh",India,"Data Science","Computer science and engineering",4,0,shamimkhan1561@gmail.com,linkedin.com/in/shamim-ahmad-317898201
+7,"Omprakash Pandit",Saharsa,Bihar,India,Full-Stack,"Computer science and engineering",4,0,omprakashpandit939@gmail.com,linkedin.com/in/omprakash524
+8,"Md Parvez",Saharsa,Bihar,India,"Machine Learning","Computer science and engineering",4,0,mdparvezsmp813@gmail.com,linkedin.com/in/md-parvez-63933b201
+9,"Satish Kumar",Saharsa,Bihar,India,"Data Science","Computer science and engineering",4,0,satish@gmail.com,linkedin.com/in/kumarsatish0
+10,"Amit Sharma",Patna,Bihar,India,"Machine Learning","Computer science and engineering",4,0,amit@gmail.com,linkedin.com/in/amitsharma
+11,"Priya Singh",Ranchi,Jharkhand,India,Full-Stack,"Computer science and engineering",3,0,priya@gmail.com,linkedin.com/in/priyasingh
+12,"Raj Patel",Varanasi,"Uttar Pradesh",India,"Data Science","Computer science and engineering",2,0,raj@gmail.com,linkedin.com/in/rajpatel
+13,"Neha Gupta",Kanpur,"Uttar Pradesh",India,Full-Stack,"Computer science and engineering",2,0,neha@gmail.com,linkedin.com/in/neha-gupta
+14,"Vikas Verma",Indore,"Madhya Pradesh",India,"Machine Learning","Computer science and engineering",4,0,vikas@gmail.com,linkedin.com/in/vikasverma
+15,"Pooja Yadav",Jaipur,Rajasthan,India,Full-Stack,"Computer science and engineering",3,0,pooja@gmail.com,linkedin.com/in/poojayadav
+16,"Sachin Kumar",Kolkata,"West Bengal",India,"Data Science","Computer science and engineering",3,0,sachin@gmail.com,linkedin.com/in/sachinkumar
+17,"Nisha Sharma",Mohali,Punjab,India,"Machine Learning","Computer science and engineering",4,0,nisha@gmail.com,linkedin.com/in/nishasharma
+18,"Rahul Verma",Ahmedabad,Gujarat,India,Full-Stack,"Computer science and engineering",1,0,rahul@gmail.com,linkedin.com/in/rahulverma
+19,"Anjali Singh",Nagpur,Maharashtra,India,"Data Science","Computer science and engineering",1,0,anjali@gmail.com,linkedin.com/in/anjali-singh
+20,"Rajiv Kumar",Guwahati,Assam,India,"Internet Of Things","Computer science and engineering",4,0,rajiv@gmail.com,linkedin.com/in/rajivkumar
+21,"Raghunath Kumar",Guwahati,Assam,India,"Internet Of Things","Computer science and engineering",4,0,raghunath@gmail.com,linkedin.com/in/raghunathkumar
+22,"Aarav Gupta",Kolkata,"West Bengal",India,"Machine Learning","Computer science and engineering",3,0,aarav.gupta@example.com,linkedin.com/in/aaravgupta
+23,"Ananya Patel",Ahmedabad,Gujarat,India,"Data Science","Computer science and engineering",2,0,ananya.patel@example.com,linkedin.com/in/ananyapatel
+24,"Vikram Singh",Chennai,"Tamil Nadu",India,Full-Stack,"Computer science and engineering",4,0,vikram.singh@example.com,linkedin.com/in/vikramsingh
+25,"Ishaan Sharma",Jaipur,Rajasthan,India,IOT,"Computer science and engineering",3,0,ishaan.sharma@example.com,linkedin.com/in/ishaansharma
+26,"Neha Reddy",Bengaluru,Karnataka,India,"Cyber Security","Computer science and engineering",2,0,neha.reddy@example.com,linkedin.com/in/neha-reddy
+27,"Aditya Kumar",Patna,Bihar,India,"Machine Learning","Computer science and engineering",3,2,aditya.kumar@example.com,linkedin.com/in/adityakumar
+28,"Alisha Gupta",Lucknow,"Uttar Pradesh",India,"Data Science","Computer science and engineering",2,1,alisha.gupta@example.com,linkedin.com/in/alishagupta
+29,"Rohan Patel",Surat,Gujarat,India,Full-Stack,"Computer science and engineering",4,3,rohan.patel@example.com,linkedin.com/in/rohanpatel
+30,"Sneha Singh",Indore,"Madhya Pradesh",India,IOT,"Computer science and engineering",3,2,sneha.singh@example.com,linkedin.com/in/snehasingh
+31,"Kunal Sharma",Nagpur,Maharashtra,India,"Machine Learning","Computer science and engineering",2,1,kunal.sharma@example.com,linkedin.com/in/kunalsharma
+32,"Akash Verma",Varanasi,"Uttar Pradesh",India,"Machine Learning","Computer science and engineering",4,2,akash.verma@example.com,linkedin.com/in/akashverma
+33,"Ishita Patel",Allahabad,"Uttar Pradesh",India,"Machine Learning","Computer science and engineering",3,1,ishita.patel@example.com,linkedin.com/in/ishitapatel
+34,"Rajesh Gupta",Bhopal,"Madhya Pradesh",India,"Machine Learning","Computer science and engineering",2,3,rajesh.gupta@example.com,linkedin.com/in/rajeshgupta
+35,"Priyanka Singh",Kanpur,"Uttar Pradesh",India,"Machine Learning","Computer science and engineering",4,2,priyanka.singh@example.com,linkedin.com/in/priyankasingh
+36,"Vishal Sharma",Amritsar,Punjab,India,"Machine Learning","Computer science and engineering",3,1,vishal.sharma@example.com,linkedin.com/in/vishalsharma
+37,"Riya Verma",Coimbatore,"Tamil Nadu",India,"Machine Learning","Computer science and engineering",2,2,riya.verma@example.com,linkedin.com/in/riyaverma
+38,"Aryan Patel",Vadodara,Gujarat,India,"Machine Learning","Computer science and engineering",4,1,aryan.patel@example.com,linkedin.com/in/aryanpatel
+39,"Anjali Gupta",Visakhapatnam,"Andhra Pradesh",India,"Machine Learning","Computer science and engineering",3,3,anjali.gupta@example.com,linkedin.com/in/anjali-gupta
+40,"Manish Singh",Jamshedpur,Jharkhand,India,"Machine Learning","Computer science and engineering",2,2,manish.singh@example.com,linkedin.com/in/manishsingh
+41,"Nisha Sharma",Agra,"Uttar Pradesh",India,"Machine Learning","Computer science and engineering",4,1,nisha.sharma@example.com,linkedin.com/in/nishasharma
+42,"Abhishek Kumar",Ludhiana,Punjab,India,"Machine Learning","Computer science and engineering",3,2,abhishek.kumar@example.com,linkedin.com/in/abhishekkumar
+43,"Tanvi Patel",Rajkot,Gujarat,India,"Machine Learning","Computer science and engineering",2,1,tanvi.patel@example.com,linkedin.com/in/tanvipatel
+44,"Rakesh Gupta",Jodhpur,Rajasthan,India,"Machine Learning","Computer science and engineering",4,3,rakesh.gupta@example.com,linkedin.com/in/rakeshgupta
+45,"Mona Singh",Raipur,Chhattisgarh,India,"Machine Learning","Computer science and engineering",3,2,mona.singh@example.com,linkedin.com/in/monasingh
+46,"Ishaan Sharma",Delhi,Delhi,India,"Data Science","Computer science and engineering",2,1,ishaan.sharma@example.com,linkedin.com/in/ishaansharma
+47,"Akanksha Singh",Lucknow,"Uttar Pradesh",India,"Data Science","Computer science and engineering",4,2,akanksha.singh@example.com,linkedin.com/in/akankshasingh
+48,"Rahul Patel",Mumbai,Maharashtra,India,"Data Science","Computer science and engineering",3,1,rahul.patel@example.com,linkedin.com/in/rahulpatel
+49,"Meera Gupta",Chennai,"Tamil Nadu",India,"Data Science","Computer science and engineering",2,3,meera.gupta@example.com,linkedin.com/in/meeragupta
+50,"Prateek Verma",Kolkata,"West Bengal",India,"Data Science","Computer science and engineering",4,2,prateek.verma@example.com,linkedin.com/in/prateekverma
+51,"Shreya Singh",Pune,Maharashtra,India,"Data Science","Computer science and engineering",3,1,shreya.singh@example.com,linkedin.com/in/shreyasingh
+52,"Amita Sharma",Jaipur,Rajasthan,India,"Data Science","Computer science and engineering",2,2,amita.sharma@example.com,linkedin.com/in/amitasharma
+53,"Rohit Verma",Bengaluru,Karnataka,India,"Data Science","Computer science and engineering",4,1,rohit.verma@example.com,linkedin.com/in/rohitverma
+54,"Neha Patel",Chandigarh,Chandigarh,India,"Data Science","Computer science and engineering",3,3,neha.patel@example.com,linkedin.com/in/nehapatel
+55,"Aditya Kumar",Hyderabad,Telangana,India,"Data Science","Computer science and engineering",2,2,aditya.kumar@example.com,linkedin.com/in/adityakumar
+56,"Priya Gupta",Ahmedabad,Gujarat,India,"Data Science","Computer science and engineering",4,1,priya.gupta@example.com,linkedin.com/in/priyagupta
+57,"Sachin Singh",Bhopal,"Madhya Pradesh",India,"Data Science","Computer science and engineering",3,2,sachin.singh@example.com,linkedin.com/in/sachinsingh
+58,"Kavita Sharma",Indore,"Madhya Pradesh",India,"Data Science","Computer science and engineering",2,1,kavita.sharma@example.com,linkedin.com/in/kavitasharma
+59,"Ananya Singh",Guwahati,Assam,India,"Data Science","Computer science and engineering",4,2,ananya.singh@example.com,linkedin.com/in/ananyasingh
+60,"Vivek Gupta",Nagpur,Maharashtra,India,"Data Science","Computer science and engineering",3,1,vivek.gupta@example.com,linkedin.com/in/vivekgupta
+61,"Aarav Gupta",Delhi,Delhi,India,Full-Stack,"Computer science and engineering",2,1,aarav.gupta@example.com,linkedin.com/in/aaravgupta
+62,"Neha Singh",Lucknow,"Uttar Pradesh",India,Full-Stack,"Computer science and engineering",4,2,neha.singh@example.com,linkedin.com/in/nehasil
+63,"Rahul Verma",Mumbai,Maharashtra,India,Full-Stack,"Computer science and engineering",3,1,rahul.verma@example.com,linkedin.com/in/rahulverma
+64,"Sakshi Sharma",Chennai,"Tamil Nadu",India,Full-Stack,"Computer science and engineering",2,3,sakshi.sharma@example.com,linkedin.com/in/sakshisharma
+65,"Vikas Verma",Kolkata,"West Bengal",India,Full-Stack,"Computer science and engineering",4,2,vikas.verma@example.com,linkedin.com/in/vikasverma
+66,"Anjali Singh",Pune,Maharashtra,India,Full-Stack,"Computer science and engineering",3,1,anjali.singh@example.com,linkedin.com/in/anjalis
+67,"Amit Kumar",Jaipur,Rajasthan,India,Full-Stack,"Computer science and engineering",2,2,amit.kumar@example.com,linkedin.com/in/amitkumar
+68,"Tanvi Verma",Bengaluru,Karnataka,India,Full-Stack,"Computer science and engineering",4,1,tanvi.verma@example.com,linkedin.com/in/tanviverma
+69,"Rohan Gupta",Chandigarh,Chandigarh,India,Full-Stack,"Computer science and engineering",3,3,rohan.gupta@example.com,linkedin.com/in/rohangupta
+70,"Sneha Sharma",Hyderabad,Telangana,India,Full-Stack,"Computer science and engineering",2,2,sneha.sharma@example.com,linkedin.com/in/snehasharma
+71,"Deepak Singh",Ahmedabad,Gujarat,India,Full-Stack,"Computer science and engineering",4,1,deepak.singh@example.com,linkedin.com/in/deepaksingh
+72,"Kritika Patel",Bhopal,"Madhya Pradesh",India,Full-Stack,"Computer science and engineering",3,2,kritika.patel@example.com,linkedin.com/in/kritikapatel
+73,"Prakash Verma",Indore,"Madhya Pradesh",India,Full-Stack,"Computer science and engineering",2,1,prakash.verma@example.com,linkedin.com/in/prakashverma
+74,"Pooja Gupta",Guwahati,Assam,India,Full-Stack,"Computer science and engineering",4,2,pooja.gupta@example.com,linkedin.com/in/poojag
+75,"Ravi Singh",Nagpur,Maharashtra,India,Full-Stack,"Computer science and engineering",3,1,ravi.singh@example.com,linkedin.com/in/ravisingh
+76,"Rahul Sharma",Delhi,Delhi,India,"Cyber Security","Computer science and engineering",2,1,rahul.sharma@example.com,linkedin.com/in/rahulsharma
+77,"Kritika Singh",Lucknow,"Uttar Pradesh",India,"Cyber Security","Computer science and engineering",4,2,kritika.singh@example.com,linkedin.com/in/kritikasingh
+78,"Aakash Verma",Mumbai,Maharashtra,India,"Cyber Security","Computer science and engineering",3,1,aakash.verma@example.com,linkedin.com/in/aakashverma
+79,"Priya Sharma",Chennai,"Tamil Nadu",India,"Cyber Security","Computer science and engineering",2,3,priya.sharma@example.com,linkedin.com/in/priyasharma
+80,"Vikram Patel",Kolkata,"West Bengal",India,"Cyber Security","Computer science and engineering",4,2,vikram.patel@example.com,linkedin.com/in/vikrampatel
+81,"Deepika Gupta",Pune,Maharashtra,India,"Cyber Security","Computer science and engineering",3,1,deepika.gupta@example.com,linkedin.com/in/deepikagupta
+82,"Arjun Singh",Jaipur,Rajasthan,India,"Cyber Security","Computer science and engineering",2,2,arjun.singh@example.com,linkedin.com/in/arjunsingh
+83,"Pooja Verma",Bengaluru,Karnataka,India,"Cyber Security","Computer science and engineering",4,1,pooja.verma@example.com,linkedin.com/in/poojaverma
+84,"Rohan Sharma",Chandigarh,Chandigarh,India,"Cyber Security","Computer science and engineering",3,3,rohan.sharma@example.com,linkedin.com/in/rohansharma
+85,"Sneha Patel",Hyderabad,Telangana,India,"Cyber Security","Computer science and engineering",2,2,sneha.patel@example.com,linkedin.com/in/snehapatel
+86,"Vivek Verma",Ahmedabad,Gujarat,India,"Cyber Security","Computer science and engineering",4,1,vivek.verma@example.com,linkedin.com/in/vivekverma
+87,"Kavita Singh",Bhopal,"Madhya Pradesh",India,"Cyber Security","Computer science and engineering",3,2,kavita.singh@example.com,linkedin.com/in/kavitasingh
+88,"Arun Sharma",Indore,"Madhya Pradesh",India,"Cyber Security","Computer science and engineering",2,1,arun.sharma@example.com,linkedin.com/in/arunsharma
+89,"Neha Verma",Guwahati,Assam,India,"Cyber Security","Computer science and engineering",4,2,neha.verma@example.com,linkedin.com/in/nehave
+90,"Rajesh Singh",Nagpur,Maharashtra,India,"Cyber Security","Computer science and engineering",3,1,rajesh.singh@example.com,linkedin.com/in/rajeshsingh
+91,"Akash Sharma",Delhi,Delhi,India,IOT,"Computer science and engineering",2,1,akash.sharma@example.com,linkedin.com/in/akashsharma
+92,"Priya Verma",Lucknow,"Uttar Pradesh",India,IOT,"Computer science and engineering",4,2,priya.verma@example.com,linkedin.com/in/priyaverma
+93,"Rahul Singh",Mumbai,Maharashtra,India,IOT,"Computer science and engineering",3,1,rahul.singh@example.com,linkedin.com/in/rahulsingh
+94,"Kavita Gupta",Chennai,"Tamil Nadu",India,IOT,"Computer science and engineering",2,3,kavita.gupta@example.com,linkedin.com/in/kavitagupta
+95,"Vivek Verma",Kolkata,"West Bengal",India,IOT,"Computer science and engineering",4,2,vivek.verma@example.com,linkedin.com/in/vivekverma
+96,"Anjali Sharma",Pune,Maharashtra,India,IOT,"Computer science and engineering",3,1,anjali.sharma@example.com,linkedin.com/in/anjalisharma
+97,"Sachin Patel",Jaipur,Rajasthan,India,IOT,"Computer science and engineering",2,2,sachin.patel@example.com,linkedin.com/in/sachinpatel
+98,"Riya Singh",Bengaluru,Karnataka,India,IOT,"Computer science and engineering",4,1,riya.singh@example.com,linkedin.com/in/riyasingh
+99,"Amit Kumar",Chandigarh,Chandigarh,India,IOT,"Computer science and engineering",3,3,amit.kumar@example.com,linkedin.com/in/amitkumar
+100,"Pooja Verma",Hyderabad,Telangana,India,IOT,"Computer science and engineering",2,2,pooja.verma@example.com,linkedin.com/in/poojaverma
+101,"Rahul Gupta",Ahmedabad,Gujarat,India,IOT,"Computer science and engineering",4,1,rahul.gupta@example.com,linkedin.com/in/rahulgupta
+102,"Neha Singh",Bhopal,"Madhya Pradesh",India,IOT,"Computer science and engineering",3,2,neha.singh@example.com,linkedin.com/in/nehasil
+103,"Aryan Patel",Indore,"Madhya Pradesh",India,IOT,"Computer science and engineering",2,1,aryan.patel@example.com,linkedin.com/in/aryanpatel
+104,"Sneha Sharma",Guwahati,Assam,India,IOT,"Computer science and engineering",4,2,sneha.sharma@example.com,linkedin.com/in/snehasharma
+105,"Vikas Verma",Nagpur,Maharashtra,India,IOT,"Computer science and engineering",3,1,vikas.verma@example.com,linkedin.com/in/vikasverma

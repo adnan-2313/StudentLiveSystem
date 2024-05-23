@@ -2,9 +2,8 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import database
 
-# print("hello")
 db = database.Database()
-
+# print("Hello", db.p())
 app = Flask(__name__)
 # CORS(app, origins=["http://localhost:5173"])
 CORS(app, resources={r"/*": {"origins": "*"}})  # Allow access from all origins
@@ -36,10 +35,11 @@ def projects():
             "state":detail[9],
             "country":detail[10],
             "minor":detail[11],
-            "year":detail[12],
-            "num_projects":detail[13],
-            "email":detail[14],
-            "linkedin":detail[15]
+            "department":detail[12],
+            "year":detail[13],
+            "num_projects":detail[14],
+            "email":detail[15],
+            "linkedin":detail[16]
         }
         result["student-{}".format(count)] = temp_data
         count = count + 1
@@ -100,16 +100,66 @@ def student():
             "state":detail[9],
             "country":detail[10],
             "minor":detail[11],
-            "year":detail[12],
-            "num_projects":detail[13],
-            "email":detail[14],
-            "linkedin":detail[15]
+            "department":detail[12],
+            "year":detail[13],
+            "num_projects":detail[14],
+            "email":detail[15],
+            "linkedin":detail[16]
         }
         result["project-{}".format(count)] = temp_data
         count = count + 1
 
     stu_projects = jsonify(result)
     return stu_projects
+
+# search teachers
+@app.route('/teacher')
+def teacher():
+    dep_or_dom = request.args.get("dep_or_dom")
+    response = db.search_teacher(dep_or_dom)
+
+    result = {}
+    count = 1
+    for detail in response:
+        temp_data = {
+            "name": detail[0],
+            "uid": detail[1],
+            "qualification": detail[2],
+            "email": detail[3],
+            "department": detail[4],
+            "domain": detail[5],
+            "phone": detail[6],
+            "no_of_research_paper": detail[7],
+            "no_of_students_guide": detail[8]
+        }
+        result["teacher-{}".format(count)] = temp_data
+        count = count + 1
+
+    teacher_list = jsonify(result)
+    return teacher_list
+
+@app.route('/alumni')
+def alumni():
+    company = request.args.get('company')
+    response = db.search_alumni(company)
+    result = {}
+    count = 1
+    for detail in response:
+        temp_data = {
+            "name": detail[0],
+            "email": detail[1],
+            "linkedin": detail[2],
+            "position": detail[3],
+            "company": detail[4],
+            "year_of_placement": detail[5]
+        }
+        result["alumni-{}".format(count)] = temp_data
+        count = count + 1
+
+    alumni_list = jsonify(result)
+    return alumni_list
+
+
 
 
 

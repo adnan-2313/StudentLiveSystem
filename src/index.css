@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
   margin:0;
@@ -28,18 +29,15 @@ body{
   /* filter: blur(20px) */
 }
 .home_head{
-  /* background: rgb(50,50,50);
-  background: linear-gradient(90deg, rgba(50,50,50,1) 0%, rgba(68,65,65,1) 50%, rgba(79,77,77,1) 100%); */
+  position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 90%, 0 100%);
   background: rgb(34,33,33);
   background: linear-gradient(90deg, rgba(34,33,33,1) 0%, rgba(36,31,31,1) 77%, rgba(51,48,48,1) 100%);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /* margin-top: 200px; */
   padding-left: 50px;
   padding-top: 50px;
-  /* background-image: url("https://images.shiksha.com/mediadata/images/1488259134phpShnPJa.jpeg"); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position:center ;
@@ -48,6 +46,10 @@ body{
   font-size: 24px;
   color:white;
   text-shadow: 1px 1px black;
+  @media screen and(min-width:1076px) {
+    background-color: red;
+    display: none;
+  }
 }
 
 

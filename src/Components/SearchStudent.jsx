@@ -11,7 +11,7 @@ const Section = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: auto;
   background: rgb(34, 33, 33);
   background: linear-gradient(
     90deg,
@@ -79,7 +79,7 @@ const SearchContainer = styled.div`
 
   width: 100%;
   height: 150px;
-  background-color: #323232;
+  /* background-color: #323232; */
   /* border:1px solid white; */
   overflow: hidden;
   margin-top: 30px;
@@ -144,7 +144,7 @@ const FilterContainer = styled.div`
 
 const FilterLabel = styled.label`
   margin-right: 10px;
-  color: white;
+  color: white; 
 `;
 
 const RadioButton = styled.input`
@@ -215,6 +215,7 @@ const SearchBar = () => {
   const [notFound, setNotFound] = useState(false);
 
   useEffect(() => {
+    
     // Retrieve search results from local storage on component mount
     const storedResults = localStorage.getItem("searchResults");
     if (storedResults) {
@@ -246,15 +247,16 @@ const SearchBar = () => {
       console.error("Error fetching data:", error);
     }
     
-    // console.log("Filtering by:", filterOption);
+    console.log("Filtering by:", filterOption);
   };
  
 
   return (
     <>
     <Navbar/>
+    
     <Section>
-      <SearchContainer>
+      
         <Search>
           <Input
             type="text"
@@ -284,7 +286,7 @@ const SearchBar = () => {
             <CiSearch />
           </Button>
         </Search>
-        <FilterContainer>
+        {/* <FilterContainer>
           <FilterLabel>
             <RadioButton
               type="radio"
@@ -326,8 +328,8 @@ const SearchBar = () => {
             Cyber Secuity
           </FilterLabel>
           {/* Add more radio buttons for other filter options */}
-        </FilterContainer>
-      </SearchContainer>
+        {/* </FilterContainer> */} 
+      
       <SectionTable>
         {notFound ? (
           <NotFound>No results found</NotFound>
@@ -336,6 +338,7 @@ const SearchBar = () => {
         )}
       </SectionTable>
     </Section>
+    
     </>
   );
 };

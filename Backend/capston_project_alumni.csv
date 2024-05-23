@@ -1,0 +1,291 @@
+name,email,LinkedIn,position,company_name,year_of_placement
+"Rahul Sharma",rahul.sharma@example.com,linkedin.com/in/rahulsharma,"Software Engineer","Infosys Limited",2020
+"Priya Patel",priya.patel@example.com,linkedin.com/in/priyapatel,"Data Analyst","Tata Consultancy Services",2019
+"Amit Singh",amit.singh@example.com,linkedin.com/in/amitsingh,"Marketing Manager","Hindustan Unilever Limited",2021
+"Sneha Reddy",sneha.reddy@example.com,linkedin.com/in/snehareddy,"Financial Analyst","ICICI Bank",2022
+"Anjali Deshpande",anjali.deshpande@example.com,linkedin.com/in/anjali-deshpande,"HR Manager","Wipro Limited",2020
+"Kunal Shah",kunal.shah@example.com,linkedin.com/in/kunalshah,"Business Analyst",Accenture,2021
+"Neha Gupta",neha.gupta@example.com,linkedin.com/in/nehagupta,"Software Developer","IBM India",2022
+"Rajesh Kumar",rajesh.kumar@example.com,linkedin.com/in/rajeshkumar,"Sales Manager","Reliance Industries",2019
+"Pooja Singh",pooja.singh@example.com,linkedin.com/in/poojasingh,"Operations Manager","Amazon India",2020
+"Sanjay Patel",sanjay.patel@example.com,linkedin.com/in/sanjaypatel,"Financial Analyst","HDFC Bank",2021
+"Deepika Rajput",deepika.rajput@example.com,linkedin.com/in/deepikarajput,"Marketing Executive","Microsoft India",2022
+"Arjun Mishra",arjun.mishra@example.com,linkedin.com/in/arjunmishra,"Software Engineer","Infosys Limited",2020
+"Riya Sharma",riya.sharma@example.com,linkedin.com/in/riyasharma,"Data Scientist","Tata Consultancy Services",2019
+"Vivek Singh",vivek.singh@example.com,linkedin.com/in/viveksingh,"Product Manager","Hindustan Unilever Limited",2021
+"Mona Reddy",mona.reddy@example.com,linkedin.com/in/monareddy,"Financial Analyst","ICICI Bank",2022
+"Akash Kumar",akash.kumar@example.com,linkedin.com/in/akashkumar,"HR Manager","Wipro Limited",2020
+"Ananya Shah",ananya.shah@example.com,linkedin.com/in/ananyashah,"Business Analyst",Accenture,2021
+"Manish Gupta",manish.gupta@example.com,linkedin.com/in/manishgupta,"Software Developer","IBM India",2022
+"Sushma Kumar",sushma.kumar@example.com,linkedin.com/in/sushmakumar,"Sales Manager","Reliance Industries",2019
+"Rakesh Singh",rakesh.singh@example.com,linkedin.com/in/rakeshsingh,"Operations Manager","Amazon India",2020
+"Nikhil Patel",nikhil.patel@example.com,linkedin.com/in/nikhilpatel,"Financial Analyst","HDFC Bank",2021
+"Divya Rajput",divya.rajput@example.com,linkedin.com/in/divyarajput,"Marketing Executive","Microsoft India",2022
+"Kiran Mishra",kiran.mishra@example.com,linkedin.com/in/kiranmishra,"Software Engineer","Infosys Limited",2020
+"Sunita Sharma",sunita.sharma@example.com,linkedin.com/in/sunitasharma,"Data Scientist","Tata Consultancy Services",2019
+"Rahul Verma",rahul.verma@example.com,linkedin.com/in/rahulverma,"Product Manager","Hindustan Unilever Limited",2021
+"Anil Reddy",anil.reddy@example.com,linkedin.com/in/anilreddy,"Financial Analyst","ICICI Bank",2022
+"Tanvi Kumar",tanvi.kumar@example.com,linkedin.com/in/tanvikumar,"HR Manager","Wipro Limited",2020
+"Rahul Shah",rahul.shah@example.com,linkedin.com/in/rahulshah,"Business Analyst",Accenture,2021
+"Preeti Gupta",preeti.gupta@example.com,linkedin.com/in/preetigupta,"Software Developer","IBM India",2022
+"Aryan Kumar",aryan.kumar@example.com,linkedin.com/in/aryankumar,"Sales Manager","Reliance Industries",2019
+"Nisha Singh",nisha.singh@example.com,linkedin.com/in/nishasingh,"Operations Manager","Amazon India",2020
+"Rajat Patel",rajat.patel@example.com,linkedin.com/in/rajatpatel,"Financial Analyst","HDFC Bank",2021
+"Megha Rajput",megha.rajput@example.com,linkedin.com/in/megharajput,"Marketing Executive","Microsoft India",2022
+"Akshay Mishra",akshay.mishra@example.com,linkedin.com/in/akshaymishra,"Software Engineer","Infosys Limited",2020
+"Divya Sharma",divya.sharma@example.com,linkedin.com/in/divyasharma,"Data Scientist","Tata Consultancy Services",2019
+"Rajesh Singh",rajesh.singh@example.com,linkedin.com/in/rajeshsingh,"Product Manager","Hindustan Unilever Limited",2021
+"Neha Reddy",neha.reddy@example.com,linkedin.com/in/nehareddy,"Financial Analyst","ICICI Bank",2022
+"Varun Kumar",varun.kumar@example.com,linkedin.com/in/varunkumar,"HR Manager","Wipro Limited",2020
+"Sandeep Shah",sandeep.shah@example.com,linkedin.com/in/sandeepshah,"Business Analyst",Accenture,2021
+"Anjali Gupta",anjali.gupta@example.com,linkedin.com/in/anjaligupta,"Software Developer","IBM India",2022
+"Amita Kumar",amita.kumar@example.com,linkedin.com/in/amitakumar,"Sales Manager","Reliance Industries",2019
+"Rohit Singh",rohit.singh@example.com,linkedin.com/in/rohitsingh,"Operations Manager","Amazon India",2020
+"Sanjay Patel",sanjay.patel@example.com,linkedin.com/in/sanjaypatel,"Financial Analyst","HDFC Bank",2021
+"Pooja Reddy",pooja.reddy@example.com,linkedin.com/in/poojareddy,"Marketing Executive","Microsoft India",2022
+"Rahul Mishra",rahul.mishra@example.com,linkedin.com/in/rahulmishra,"Software Engineer","Infosys Limited",2020
+"Riya Sharma",riya.sharma@example.com,linkedin.com/in/riyasharma,"Data Scientist","Tata Consultancy Services",2019
+"Vivek Singh",vivek.singh@example.com,linkedin.com/in/viveksingh,"Product Manager","Hindustan Unilever Limited",2021
+"Mona Reddy",mona.reddy@example.com,linkedin.com/in/monareddy,"Financial Analyst","ICICI Bank",2022
+"Akash Kumar",akash.kumar@example.com,linkedin.com/in/akashkumar,"HR Manager","Wipro Limited",2020
+"Ananya Shah",ananya.shah@example.com,linkedin.com/in/ananyashah,"Business Analyst",Accenture,2021
+"Manish Gupta",manish.gupta@example.com,linkedin.com/in/manishgupta,"Software Developer","IBM India",2022
+"Sushma Kumar",sushma.kumar@example.com,linkedin.com/in/sushmakumar,"Sales Manager","Reliance Industries",2019
+"Rakesh Singh",rakesh.singh@example.com,linkedin.com/in/rakeshsingh,"Operations Manager","Amazon India",2020
+"Nikhil Patel",nikhil.patel@example.com,linkedin.com/in/nikhilpatel,"Financial Analyst","HDFC Bank",2021
+"Divya Rajput",divya.rajput@example.com,linkedin.com/in/divyarajput,"Marketing Executive","Microsoft India",2022
+"Kiran Mishra",kiran.mishra@example.com,linkedin.com/in/kiranmishra,"Software Engineer","Infosys Limited",2020
+"Sunita Sharma",sunita.sharma@example.com,linkedin.com/in/sunitasharma,"Data Scientist","Tata Consultancy Services",2019
+"Rahul Verma",rahul.verma@example.com,linkedin.com/in/rahulverma,"Product Manager","Hindustan Unilever Limited",2021
+"Anil Reddy",anil.reddy@example.com,linkedin.com/in/anilreddy,"Financial Analyst","ICICI Bank",2022
+"Tanvi Kumar",tanvi.kumar@example.com,linkedin.com/in/tanvikumar,"HR Manager","Wipro Limited",2020
+"Rahul Shah",rahul.shah@example.com,linkedin.com/in/rahulshah,"Business Analyst",Accenture,2021
+"Preeti Gupta",preeti.gupta@example.com,linkedin.com/in/preetigupta,"Software Developer","IBM India",2022
+"Aryan Kumar",aryan.kumar@example.com,linkedin.com/in/aryankumar,"Sales Manager","Reliance Industries",2019
+"Nisha Singh",nisha.singh@example.com,linkedin.com/in/nishasingh,"Operations Manager","Amazon India",2020
+"Rajat Patel",rajat.patel@example.com,linkedin.com/in/rajatpatel,"Financial Analyst","HDFC Bank",2021
+"Megha Rajput",megha.rajput@example.com,linkedin.com/in/megharajput,"Marketing Executive","Microsoft India",2022
+"Akshay Mishra",akshay.mishra@example.com,linkedin.com/in/akshaymishra,"Software Engineer","Infosys Limited",2020
+"Divya Sharma",divya.sharma@example.com,linkedin.com/in/divyasharma,"Data Scientist","Tata Consultancy Services",2019
+"Rajesh Singh",rajesh.singh@example.com,linkedin.com/in/rajeshsingh,"Product Manager","Hindustan Unilever Limited",2021
+"Neha Reddy",neha.reddy@example.com,linkedin.com/in/nehareddy,"Financial Analyst","ICICI Bank",2022
+"Varun Kumar",varun.kumar@example.com,linkedin.com/in/varunkumar,"HR Manager","Wipro Limited",2020
+"Sandeep Shah",sandeep.shah@example.com,linkedin.com/in/sandeepshah,"Business Analyst",Accenture,2021
+"Anjali Gupta",anjali.gupta@example.com,linkedin.com/in/anjaligupta,"Software Developer","IBM India",2022
+"Amita Kumar",amita.kumar@example.com,linkedin.com/in/amitakumar,"Sales Manager","Reliance Industries",2019
+"Rohit Singh",rohit.singh@example.com,linkedin.com/in/rohitsingh,"Operations Manager","Amazon India",2020
+"Sanjay Patel",sanjay.patel@example.com,linkedin.com/in/sanjaypatel,"Financial Analyst","HDFC Bank",2021
+"Pooja Reddy",pooja.reddy@example.com,linkedin.com/in/poojareddy,"Marketing Executive","Microsoft India",2022
+"Amit Kumar",amit.kumar@example.com,linkedin.com/in/amitkumar,"Software Engineer",CRED,2020
+"Neha Singh",neha.singh@example.com,linkedin.com/in/nehasingh,"Data Analyst",Razorpay,2019
+"Rajesh Sharma",rajesh.sharma@example.com,linkedin.com/in/rajeshsharma,"Marketing Manager",Swiggy,2021
+"Pooja Reddy",pooja.reddy@example.com,linkedin.com/in/poojareddy,"Financial Analyst","Ola Cabs",2022
+"Vivek Patel",vivek.patel@example.com,linkedin.com/in/vivekpatel,"HR Manager",Paytm,2020
+"Riya Shah",riya.shah@example.com,linkedin.com/in/riyashah,"Business Analyst",BYJU'S,2021
+"Sanjay Singh",sanjay.singh@example.com,linkedin.com/in/sanjaysingh,"Software Developer",Delhivery,2022
+"Anjali Kumar",anjali.kumar@example.com,linkedin.com/in/anjalikumar,"Sales Manager","Digit Insurance",2019
+"Kiran Reddy",kiran.reddy@example.com,linkedin.com/in/kiranreddy,"Operations Manager",Groww,2020
+"Aryan Gupta",aryan.gupta@example.com,linkedin.com/in/aryangupta,"Marketing Executive",Meesho,2022
+"Sunita Patel",sunita.patel@example.com,linkedin.com/in/sunitapatel,"Software Engineer",Nykaa,2020
+"Rahul Singh",rahul.singh@example.com,linkedin.com/in/rahulsingh,"Data Scientist",Udaan,2019
+"Priya Sharma",priya.sharma@example.com,linkedin.com/in/priyasharma,"Product Manager",upGrad,2021
+"Amit Reddy",amit.reddy@example.com,linkedin.com/in/amitreddy,"Financial Analyst",Boat,2022
+"Neha Kumar",neha.kumar@example.com,linkedin.com/in/nehakumar,"HR Manager",Dream11,2020
+"Rajesh Shah",rajesh.shah@example.com,linkedin.com/in/rajeshshah,"Business Analyst","Exponent Energy",2021
+"Pooja Singh",pooja.singh@example.com,linkedin.com/in/poojasingh,"Software Developer",GoKwik,2022
+"Vivek Gupta",vivek.gupta@example.com,linkedin.com/in/vivekgupta,"Sales Manager","OYO Rooms",2019
+"Riya Reddy",riya.reddy@example.com,linkedin.com/in/riyareddy,"Operations Manager",PharmEasy,2020
+"Sanjay Kumar",sanjay.kumar@example.com,linkedin.com/in/sanjaykumar,"Marketing Executive","Pine Labs",2022
+"Anjali Sharma",anjali.sharma@example.com,linkedin.com/in/anjalisharma,"Software Engineer",Policybazaar.Com,2020
+"Kiran Singh",kiran.singh@example.com,linkedin.com/in/kiransingh,"Data Scientist",Sprinto,2019
+"Aryan Patel",aryan.patel@example.com,linkedin.com/in/aryanpatel,"Product Manager",Unacademy,2021
+"Sunita Reddy",sunita.reddy@example.com,linkedin.com/in/sunitareddy,"Financial Analyst",InMobi,2022
+"Alok Verma",alok.verma@example.com,linkedin.com/in/alokverma,"Software Engineer",CRED,2021
+"Deepa Sharma",deepa.sharma@example.com,linkedin.com/in/deepasharma,"Data Analyst",Razorpay,2022
+"Rahul Gupta",rahul.gupta@example.com,linkedin.com/in/rahulgupta,"Marketing Manager",Swiggy,2019
+"Nisha Patel",nisha.patel@example.com,linkedin.com/in/nishapatel,"Financial Analyst","Ola Cabs",2020
+"Vikas Singh",vikas.singh@example.com,linkedin.com/in/vikassingh,"HR Manager",Paytm,2021
+"Priyanka Kumar",priyanka.kumar@example.com,linkedin.com/in/priyankakumar,"Business Analyst",BYJU'S,2022
+"Ramesh Reddy",ramesh.reddy@example.com,linkedin.com/in/rameshreddy,"Software Developer",Delhivery,2019
+"Shreya Gupta",shreya.gupta@example.com,linkedin.com/in/shreyagupta,"Sales Manager","Digit Insurance",2020
+"Akash Sharma",akash.sharma@example.com,linkedin.com/in/akashsharma,"Operations Manager",Groww,2021
+"Sakshi Singh",sakshi.singh@example.com,linkedin.com/in/sakshisingh,"Marketing Executive",Meesho,2022
+"Vikram Patel",vikram.patel@example.com,linkedin.com/in/vikrampatel,"Software Engineer",Nykaa,2020
+"Deepak Singh",deepak.singh@example.com,linkedin.com/in/deepaksingh,"Data Scientist",Udaan,2021
+"Ritu Sharma",ritu.sharma@example.com,linkedin.com/in/ritusharma,"Product Manager",upGrad,2022
+"Rajat Reddy",rajat.reddy@example.com,linkedin.com/in/rajatreddy,"Financial Analyst",Boat,2019
+"Sneha Kumar",sneha.kumar@example.com,linkedin.com/in/snehakumar,"HR Manager",Dream11,2020
+"Kunal Shah",kunal.shah@example.com,linkedin.com/in/kunalshah,"Business Analyst","Exponent Energy",2021
+"Divya Singh",divya.singh@example.com,linkedin.com/in/divyasingh,"Software Developer",GoKwik,2022
+"Vikas Gupta",vikas.gupta@example.com,linkedin.com/in/vikasgupta,"Sales Manager","OYO Rooms",2019
+"Shweta Reddy",shweta.reddy@example.com,linkedin.com/in/shwetareddy,"Operations Manager",PharmEasy,2020
+"Ashish Kumar",ashish.kumar@example.com,linkedin.com/in/ashishkumar,"Marketing Executive","Pine Labs",2021
+"Neeta Sharma",neeta.sharma@example.com,linkedin.com/in/neetasharma,"Software Engineer",Policybazaar.Com,2022
+"Rajeev Singh",rajeev.singh@example.com,linkedin.com/in/rajeevsingh,"Data Scientist",Sprinto,2019
+"Nikita Patel",nikita.patel@example.com,linkedin.com/in/nikitapatel,"Product Manager",Unacademy,2020
+"Anil Reddy",anil.reddy@example.com,linkedin.com/in/anilreddy,"Financial Analyst",InMobi,2021
+"Ramesh Verma",ramesh.verma@example.com,linkedin.com/in/rameshverma,"Software Engineer",CRED,2022
+"Deepika Sharma",deepika.sharma@example.com,linkedin.com/in/deepikasharma,"Data Analyst",Razorpay,2020
+"Rajesh Gupta",rajesh.gupta@example.com,linkedin.com/in/rajeshgupta,"Marketing Manager",Swiggy,2021
+"Naveen Patel",naveen.patel@example.com,linkedin.com/in/naveenpatel,"Financial Analyst","Ola Cabs",2019
+"Vikram Singh",vikram.singh@example.com,linkedin.com/in/vikramsingh,"HR Manager",Paytm,2020
+"Priyanka Sharma",priyanka.sharma@example.com,linkedin.com/in/priyankasharma,"Business Analyst",BYJU'S,2021
+"Rahul Reddy",rahul.reddy@example.com,linkedin.com/in/rahulreddy,"Software Developer",Delhivery,2022
+"Shweta Kumar",shweta.kumar@example.com,linkedin.com/in/shwetakumar,"Sales Manager","Digit Insurance",2019
+"Akash Singh",akash.singh@example.com,linkedin.com/in/akashsingh,"Operations Manager",Groww,2020
+"Sakshi Sharma",sakshi.sharma@example.com,linkedin.com/in/sakshisharma,"Marketing Executive",Meesho,2021
+"Vikrant Patel",vikrant.patel@example.com,linkedin.com/in/vikrantpatel,"Software Engineer",Nykaa,2022
+"Deepika Singh",deepika.singh@example.com,linkedin.com/in/deepikasingh,"Data Scientist",Udaan,2019
+"Rajesh Kumar",rajesh.kumar@example.com,linkedin.com/in/rajeshkumar,"Product Manager",upGrad,2020
+"Anil Sharma",anil.sharma@example.com,linkedin.com/in/anilsharma,"Financial Analyst",Boat,2021
+"Ramesh Kumar",ramesh.kumar@example.com,linkedin.com/in/rameshkumar,"HR Manager",Dream11,2022
+"Shweta Patel",shweta.patel@example.com,linkedin.com/in/shwetapatel,"Business Analyst","Exponent Energy",2019
+"Alok Gupta",alok.gupta@example.com,linkedin.com/in/alokgupta,"Software Developer",GoKwik,2020
+"Nikhil Singh",nikhil.singh@example.com,linkedin.com/in/nikhilsingh,"Sales Manager","OYO Rooms",2021
+"Sneha Reddy",sneha.reddy@example.com,linkedin.com/in/snehareddy,"Operations Manager",PharmEasy,2022
+"Kunal Kumar",kunal.kumar@example.com,linkedin.com/in/kunalkumar,"Marketing Executive","Pine Labs",2019
+"Divya Sharma",divya.sharma@example.com,linkedin.com/in/divyasharma,"Software Engineer",Policybazaar.Com,2020
+"Vikas Singh",vikas.singh@example.com,linkedin.com/in/vikassingh,"Data Scientist",Sprinto,2021
+"Shreya Patel",shreya.patel@example.com,linkedin.com/in/shreyapatel,"Product Manager",Unacademy,2022
+"Alok Reddy",alok.reddy@example.com,linkedin.com/in/alokreddy,"Financial Analyst",InMobi,2019
+"Rajeev Verma",rajeev.verma@example.com,linkedin.com/in/rajeevverma,"Software Engineer",CRED,2020
+"Deepa Sharma",deepa.sharma@example.com,linkedin.com/in/deepasharma,"Data Analyst",Razorpay,2021
+"Rahul Gupta",rahul.gupta@example.com,linkedin.com/in/rahulgupta,"Marketing Manager",Swiggy,2022
+"Nisha Patel",nisha.patel@example.com,linkedin.com/in/nishapatel,"Financial Analyst","Ola Cabs",2020
+"Vikas Singh",vikas.singh@example.com,linkedin.com/in/vikassingh,"HR Manager",Paytm,2021
+"Priyanka Kumar",priyanka.kumar@example.com,linkedin.com/in/priyankakumar,"Business Analyst",BYJU'S,2022
+"Ramesh Reddy",ramesh.reddy@example.com,linkedin.com/in/rameshreddy,"Software Developer",Delhivery,2019
+"Shreya Gupta",shreya.gupta@example.com,linkedin.com/in/shreyagupta,"Sales Manager","Digit Insurance",2020
+"Akash Sharma",akash.sharma@example.com,linkedin.com/in/akashsharma,"Operations Manager",Groww,2021
+"Sakshi Singh",sakshi.singh@example.com,linkedin.com/in/sakshisingh,"Marketing Executive",Meesho,2022
+"Vikram Patel",vikram.patel@example.com,linkedin.com/in/vikrampatel,"Software Engineer",Nykaa,2019
+"Deepak Singh",deepak.singh@example.com,linkedin.com/in/deepaksingh,"Data Scientist",Udaan,2020
+"Ritu Sharma",ritu.sharma@example.com,linkedin.com/in/ritusharma,"Product Manager",upGrad,2021
+"Rajat Reddy",rajat.reddy@example.com,linkedin.com/in/rajatreddy,"Financial Analyst",Boat,2022
+"Sneha Kumar",sneha.kumar@example.com,linkedin.com/in/snehakumar,"HR Manager",Dream11,2019
+"Kunal Shah",kunal.shah@example.com,linkedin.com/in/kunalshah,"Business Analyst","Exponent Energy",2020
+"Divya Singh",divya.singh@example.com,linkedin.com/in/divyasingh,"Software Developer",GoKwik,2021
+"Vikas Gupta",vikas.gupta@example.com,linkedin.com/in/vikasgupta,"Sales Manager","OYO Rooms",2022
+"Shweta Reddy",shweta.reddy@example.com,linkedin.com/in/shwetareddy,"Operations Manager",PharmEasy,2019
+"Ashish Kumar",ashish.kumar@example.com,linkedin.com/in/ashishkumar,"Marketing Executive","Pine Labs",2020
+"Neeta Sharma",neeta.sharma@example.com,linkedin.com/in/neetasharma,"Software Engineer",Policybazaar.Com,2021
+"Rajeev Singh",rajeev.singh@example.com,linkedin.com/in/rajeevsingh,"Data Scientist",Sprinto,2022
+"Nikita Patel",nikita.patel@example.com,linkedin.com/in/nikitapatel,"Product Manager",Unacademy,2019
+"Anil Reddy",anil.reddy@example.com,linkedin.com/in/anilreddy,"Financial Analyst",InMobi,2020
+"Alok Verma",alok.verma@example.com,linkedin.com/in/alokverma,"Software Engineer",CRED,2021
+"Deepa Sharma",deepa.sharma@example.com,linkedin.com/in/deepasharma,"Data Analyst",Razorpay,2022
+"Rahul Gupta",rahul.gupta@example.com,linkedin.com/in/rahulgupta,"Marketing Manager",Swiggy,2019
+"Nisha Patel",nisha.patel@example.com,linkedin.com/in/nishapatel,"Financial Analyst","Ola Cabs",2020
+"Vikas Singh",vikas.singh@example.com,linkedin.com/in/vikassingh,"HR Manager",Paytm,2021
+"Priyanka Kumar",priyanka.kumar@example.com,linkedin.com/in/priyankakumar,"Business Analyst",BYJU'S,2022
+"Ramesh Reddy",ramesh.reddy@example.com,linkedin.com/in/rameshreddy,"Software Developer",Delhivery,2019
+"Shreya Gupta",shreya.gupta@example.com,linkedin.com/in/shreyagupta,"Sales Manager","Digit Insurance",2020
+"Akash Sharma",akash.sharma@example.com,linkedin.com/in/akashsharma,"Operations Manager",Groww,2021
+"Sakshi Singh",sakshi.singh@example.com,linkedin.com/in/sakshisingh,"Marketing Executive",Meesho,2022
+"Vikram Patel",vikram.patel@example.com,linkedin.com/in/vikrampatel,"Software Engineer",Nykaa,2019
+"Deepak Singh",deepak.singh@example.com,linkedin.com/in/deepaksingh,"Data Scientist",Udaan,2020
+"Ritu Sharma",ritu.sharma@example.com,linkedin.com/in/ritusharma,"Product Manager",upGrad,2021
+"Rajat Reddy",rajat.reddy@example.com,linkedin.com/in/rajatreddy,"Financial Analyst",Boat,2022
+"Sneha Kumar",sneha.kumar@example.com,linkedin.com/in/snehakumar,"HR Manager",Dream11,2019
+"Kunal Shah",kunal.shah@example.com,linkedin.com/in/kunalshah,"Business Analyst","Exponent Energy",2020
+"Divya Singh",divya.singh@example.com,linkedin.com/in/divyasingh,"Software Developer",GoKwik,2021
+"Vikas Gupta",vikas.gupta@example.com,linkedin.com/in/vikasgupta,"Sales Manager","OYO Rooms",2022
+"Shweta Reddy",shweta.reddy@example.com,linkedin.com/in/shwetareddy,"Operations Manager",PharmEasy,2019
+"Ashish Kumar",ashish.kumar@example.com,linkedin.com/in/ashishkumar,"Marketing Executive","Pine Labs",2020
+"Neeta Sharma",neeta.sharma@example.com,linkedin.com/in/neetasharma,"Software Engineer",Policybazaar.Com,2021
+"Rajeev Singh",rajeev.singh@example.com,linkedin.com/in/rajeevsingh,"Data Scientist",Sprinto,2022
+"Nikita Patel",nikita.patel@example.com,linkedin.com/in/nikitapatel,"Product Manager",Unacademy,2019
+"Anil Reddy",anil.reddy@example.com,linkedin.com/in/anilreddy,"Financial Analyst",InMobi,2020
+"Ananya Singh",ananya.singh@example.com,linkedin.com/in/ananyasingh,"Software Engineer",TCS,2023
+"Aryan Gupta",aryan.gupta@example.com,linkedin.com/in/aryangupta,"Data Analyst","MASAI SCHOOL",2023
+"Priya Sharma",priya.sharma@example.com,linkedin.com/in/priyasharma,"Marketing Manager","REAL TIME DATA SERVICES",2023
+"Rahul Reddy",rahul.reddy@example.com,linkedin.com/in/rahulreddy,"Financial Analyst","RNF TECHNOLOGIES",2023
+"Kiran Singh",kiran.singh@example.com,linkedin.com/in/kiransingh,"HR Manager","RINEX TECHNOLOGIES",2023
+"Nisha Patel",nisha.patel@example.com,linkedin.com/in/nishapatel,"Software Developer",AIRBUS,2023
+"Suresh Kumar",suresh.kumar@example.com,linkedin.com/in/sureshkumar,"Data Scientist","HOTWAX SYSTEMS",2023
+"Ramesh Gupta",ramesh.gupta@example.com,linkedin.com/in/rameshgupta,"Marketing Manager","IOCL INDIA OIL CORP LTD",2023
+"Naveen Reddy",naveen.reddy@example.com,linkedin.com/in/naveenreddy,"Financial Analyst",URBANPRO,2023
+"Vikas Sharma",vikas.sharma@example.com,linkedin.com/in/vikassharma,"HR Manager",PRAMATA,2023
+"Priyanka Singh",priyanka.singh@example.com,linkedin.com/in/priyankasingh,"Business Analyst",BHARATX,2023
+"Rohit Verma",rohit.verma@example.com,linkedin.com/in/rohitverma,"Software Developer","PLANET SPARK",2023
+"Shreya Gupta",shreya.gupta@example.com,linkedin.com/in/shreyagupta,"Sales Manager","CODING NINJAS",2023
+"Akash Sharma",akash.sharma@example.com,linkedin.com/in/akashsharma,"Operations Manager","HIKE EDUCATION",2023
+"Sakshi Singh",sakshi.singh@example.com,linkedin.com/in/sakshisingh,"Marketing Executive","PATENTI TECHNOLOGY SOLUTIONS",2023
+"Vikram Patel",vikram.patel@example.com,linkedin.com/in/vikrampatel,"Software Engineer",AVAINTERN,2023
+"Deepak Singh",deepak.singh@example.com,linkedin.com/in/deepaksingh,"Data Scientist",SHYFTLABS,2023
+"Ritu Sharma",ritu.sharma@example.com,linkedin.com/in/ritusharma,"Product Manager","CONTROLZ (UNDO WORLD PVT. LTD.)",2023
+"Rajat Reddy",rajat.reddy@example.com,linkedin.com/in/rajatreddy,"Financial Analyst","MIDAS CONSULTING",2023
+"Sneha Kumar",sneha.kumar@example.com,linkedin.com/in/snehakumar,"HR Manager",MINDSPARC,2023
+"Kunal Shah",kunal.shah@example.com,linkedin.com/in/kunalshah,"Business Analyst",GAMESKRAFT,2023
+"Divya Singh",divya.singh@example.com,linkedin.com/in/divyasingh,"Software Developer",GAMESKRAFT,2023
+"Vikas Gupta",vikas.gupta@example.com,linkedin.com/in/vikasgupta,"Sales Manager",GAMESKRAFT,2023
+"Shweta Reddy",shweta.reddy@example.com,linkedin.com/in/shwetareddy,"Operations Manager",VISA2FLY,2023
+"Ashish Kumar",ashish.kumar@example.com,linkedin.com/in/ashishkumar,"Marketing Executive",STRIDEONE,2023
+"Neeta Sharma",neeta.sharma@example.com,linkedin.com/in/neetasharma,"Software Engineer","ABCDE TECHNOLOGIES PRIVATE LIMITED",2023
+"Rajeev Singh",rajeev.singh@example.com,linkedin.com/in/rajeevsingh,"Data Scientist",REGISTERKARO,2023
+"Nikita Patel",nikita.patel@example.com,linkedin.com/in/nikitapatel,"Product Manager","UPGRAD EDUCATION PRIVATE LIMITED",2023
+"Anil Reddy",anil.reddy@example.com,linkedin.com/in/anilreddy,"Financial Analyst","ASER CENTRE",2023
+"Alok Verma",alok.verma@example.com,linkedin.com/in/alokverma,"Software Engineer","SUDARSHAN NEWS CHANNEL PVT LTD.",2023
+"Deepa Sharma",deepa.sharma@example.com,linkedin.com/in/deepasharma,"Data Analyst",TYRESNMORE,2023
+"Rahul Gupta",rahul.gupta@example.com,linkedin.com/in/rahulgupta,"Marketing Manager","HYPERSPACE CONSULTING",2023
+"Nisha Patel",nisha.patel@example.com,linkedin.com/in/nishapatel,"Financial Analyst","TOWER RESEARCH CAPITAL MARKETS INDIA PVT LTD",2023
+"Vikas Singh",vikas.singh@example.com,linkedin.com/in/vikassingh,"HR Manager",SWIGGY,2023
+"Priyanka Kumar",priyanka.kumar@example.com,linkedin.com/in/priyankakumar,"Business Analyst","JK CEMENTS",2023
+"Ramesh Reddy",ramesh.reddy@example.com,linkedin.com/in/rameshreddy,"Software Developer","NEOTAS INDIA",2023
+"Shreya Gupta",shreya.gupta@example.com,linkedin.com/in/shreyagupta,"Sales Manager","RUPEEK GOLD LOANS",2023
+"Akash Sharma",akash.sharma@example.com,linkedin.com/in/akashsharma,"Operations Manager","RMX GROUP",2023
+"Sakshi Singh",sakshi.singh@example.com,linkedin.com/in/sakshisingh,"Marketing Executive",RECIPTO,2023
+"Vikram Patel",vikram.patel@example.com,linkedin.com/in/vikrampatel,"Software Engineer","PUSH SPORTS",2023
+"Deepak Singh",deepak.singh@example.com,linkedin.com/in/deepaksingh,"Data Scientist",FLIPKART,2023
+"Ritu Sharma",ritu.sharma@example.com,linkedin.com/in/ritusharma,"Product Manager",ANGELONE,2023
+"Rajat Reddy",rajat.reddy@example.com,linkedin.com/in/rajatreddy,"Financial Analyst","GOOGLE INDIA",2023
+"Sneha Kumar",sneha.kumar@example.com,linkedin.com/in/snehakumar,"HR Manager",YASHGROUP,2023
+"Kunal Shah",kunal.shah@example.com,linkedin.com/in/kunalshah,"Business Analyst","IDENSYS TECHNOLOGIES",2023
+"Divya Singh",divya.singh@example.com,linkedin.com/in/divyasingh,"Software Developer","INTEGRATED RESOURCES INC",2023
+"Vikas Gupta",vikas.gupta@example.com,linkedin.com/in/vikasgupta,"Sales Manager",OPRAAHFX,2023
+"Shweta Reddy",shweta.reddy@example.com,linkedin.com/in/shwetareddy,"Operations Manager",TESLA,2023
+"Ashish Kumar",ashish.kumar@example.com,linkedin.com/in/ashishkumar,"Marketing Executive","KPIT TECHNOLOGIES",2023
+"Neeta Sharma",neeta.sharma@example.com,linkedin.com/in/neetasharma,"Software Engineer","ELLAUNCH INFOTECH",2023
+"Rajeev Singh",rajeev.singh@example.com,linkedin.com/in/rajeevsingh,"Data Scientist","ZENSAR TECHNOLOGIES",2023
+"Nikita Patel",nikita.patel@example.com,linkedin.com/in/nikitapatel,"Product Manager","ERNET INDIA",2023
+"Anil Reddy",anil.reddy@example.com,linkedin.com/in/anilreddy,"Financial Analyst",CDAC,2023
+"Alok Verma",alok.verma@example.com,linkedin.com/in/alokverma,"Software Engineer","TATA CONSULTANCY SERVICES",2023
+"Deepa Sharma",deepa.sharma@example.com,linkedin.com/in/deepasharma,"Data Analyst",WIPRO,2023
+"Rahul Gupta",rahul.gupta@example.com,linkedin.com/in/rahulgupta,"Marketing Manager",INFOSYS,2023
+"Nisha Patel",nisha.patel@example.com,linkedin.com/in/nishapatel,"Financial Analyst","HCL TECHNOLOGIES",2023
+"Vikas Singh",vikas.singh@example.com,linkedin.com/in/vikassingh,"HR Manager","TECH MAHINDRA",2023
+"Priyanka Kumar",priyanka.kumar@example.com,linkedin.com/in/priyankakumar,"Business Analyst",ACCENTURE,2023
+"Ramesh Reddy",ramesh.reddy@example.com,linkedin.com/in/rameshreddy,"Software Developer",CAPGEMINI,2023
+"Shreya Gupta",shreya.gupta@example.com,linkedin.com/in/shreyagupta,"Sales Manager",IBM,2023
+"Akash Sharma",akash.sharma@example.com,linkedin.com/in/akashsharma,"Operations Manager",MICROSOFT,2023
+"Sakshi Singh",sakshi.singh@example.com,linkedin.com/in/sakshisingh,"Marketing Executive",GOOGLE,2023
+"Vikram Patel",vikram.patel@example.com,linkedin.com/in/vikrampatel,"Software Engineer",AMAZON,2023
+"Deepak Singh",deepak.singh@example.com,linkedin.com/in/deepaksingh,"Data Scientist",FACEBOOK,2023
+"Ritu Sharma",ritu.sharma@example.com,linkedin.com/in/ritusharma,"Product Manager",APPLE,2023
+"Rajat Reddy",rajat.reddy@example.com,linkedin.com/in/rajatreddy,"Financial Analyst",NETFLIX,2023
+"Sneha Kumar",sneha.kumar@example.com,linkedin.com/in/snehakumar,"HR Manager",UBER,2023
+"Kunal Shah",kunal.shah@example.com,linkedin.com/in/kunalshah,"Business Analyst",AIRBNB,2023
+"Divya Singh",divya.singh@example.com,linkedin.com/in/divyasingh,"Software Developer",SPOTIFY,2023
+"Vikas Gupta",vikas.gupta@example.com,linkedin.com/in/vikasgupta,"Sales Manager",SNAPCHAT,2023
+"Shweta Reddy",shweta.reddy@example.com,linkedin.com/in/shwetareddy,"Operations Manager",TWITTER,2023
+"Ashish Kumar",ashish.kumar@example.com,linkedin.com/in/ashishkumar,"Marketing Executive",LINKEDIN,2023
+"Neeta Sharma",neeta.sharma@example.com,linkedin.com/in/neetasharma,"Software Engineer",YOUTUBE,2023
+"Rajeev Singh",rajeev.singh@example.com,linkedin.com/in/rajeevsingh,"Data Scientist",TIKTOK,2023
+"Nikita Patel",nikita.patel@example.com,linkedin.com/in/nikitapatel,"Product Manager",WHATSAPP,2023
+"Anil Reddy",anil.reddy@example.com,linkedin.com/in/anilreddy,"Financial Analyst",INSTAGRAM,2023
+"Alok Verma",alok.verma@example.com,linkedin.com/in/alokverma,"Software Engineer",GITHUB,2023
+"Deepa Sharma",deepa.sharma@example.com,linkedin.com/in/deepasharma,"Data Analyst",TWITCH,2023
+"Rahul Gupta",rahul.gupta@example.com,linkedin.com/in/rahulgupta,"Marketing Manager",DISCORD,2023
+"Nisha Patel",nisha.patel@example.com,linkedin.com/in/nishapatel,"Financial Analyst",SLACK,2023
+"Vikas Singh",vikas.singh@example.com,linkedin.com/in/vikassingh,"HR Manager",ZOOM,2023
+"Priyanka Kumar",priyanka.kumar@example.com,linkedin.com/in/priyankakumar,"Business Analyst",SKYPE,2023
+"Ramesh Reddy",ramesh.reddy@example.com,linkedin.com/in/rameshreddy,"Software Developer",GMAIL,2023
+"Shreya Gupta",shreya.gupta@example.com,linkedin.com/in/shreyagupta,"Sales Manager",OUTLOOK,2023
+"Akash Sharma",akash.sharma@example.com,linkedin.com/in/akashsharma,"Operations Manager",HOTMAIL,2023
+"Sakshi Singh",sakshi.singh@example.com,linkedin.com/in/sakshisingh,"Marketing Executive",YAHOO,2023
+"Vikram Patel",vikram.patel@example.com,linkedin.com/in/vikrampatel,"Software Engineer",MSN,2023
+"Deepak Singh",deepak.singh@example.com,linkedin.com/in/deepaksingh,"Data Scientist",BING,2023
+"Ritu Sharma",ritu.sharma@example.com,linkedin.com/in/ritusharma,"Product Manager",ASK,2023
+"Rajat Reddy",rajat.reddy@example.com,linkedin.com/in/rajatreddy,"Financial Analyst",WIKIPEDIA,2023
+"Sneha Kumar",sneha.kumar@example.com,linkedin.com/in/snehakumar,"HR Manager","GOOGLE SEARCH",2023
+"Kunal Shah",kunal.shah@example.com,linkedin.com/in/kunalshah,"Business Analyst","YOUTUBE MUSIC",2023
