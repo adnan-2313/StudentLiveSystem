@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
-
 import { CiSearch } from "react-icons/ci";
 import Button from "@mui/material/Button";
 import Navbar from "./Navbar";
@@ -19,7 +18,6 @@ const Section = styled.section`
     rgba(36, 31, 31, 1) 77%,
     rgba(51, 48, 48, 1) 100%
   );
-  
 `;
 
 const Table = styled.table`
@@ -76,7 +74,6 @@ const Input = styled.input`
 `;
 
 const SearchContainer = styled.div`
-
   width: 100%;
   height: 150px;
   /* background-color: #323232; */
@@ -144,7 +141,7 @@ const FilterContainer = styled.div`
 
 const FilterLabel = styled.label`
   margin-right: 10px;
-  color: white; 
+  color: white;
 `;
 
 const RadioButton = styled.input`
@@ -164,14 +161,14 @@ const ProjectTable = ({ projects }) => {
         linkedin: project.linkedin,
         minor: project.minor,
         name: project.name,
-        project_date:project.project_date,
-        project_des:project.project_des,
+        project_date: project.project_date,
+        project_des: project.project_des,
         project_domain: project.project_domain,
         project_name: project.project_name,
-        reg_no:project.reg_no,
+        reg_no: project.reg_no,
         student_state: project.state,
-        tech_used:project.tech_used,
-        year:project.year
+        tech_used: project.tech_used,
+        year: project.year,
       },
     }); // Navigate to the project detail page
   };
@@ -215,7 +212,6 @@ const SearchBar = () => {
   const [notFound, setNotFound] = useState(false);
 
   useEffect(() => {
-    
     // Retrieve search results from local storage on component mount
     const storedResults = localStorage.getItem("searchResults");
     if (storedResults) {
@@ -246,17 +242,15 @@ const SearchBar = () => {
     } catch (error) {
       console.error("Error fetching data:", error);
     }
-    
+
     console.log("Filtering by:", filterOption);
   };
- 
 
   return (
     <>
-    <Navbar/>
-    
-    <Section>
-      
+      <Navbar />
+
+      <Section>
         <Search>
           <Input
             type="text"
@@ -328,17 +322,16 @@ const SearchBar = () => {
             Cyber Secuity
           </FilterLabel>
           {/* Add more radio buttons for other filter options */}
-        {/* </FilterContainer> */} 
-      
-      <SectionTable>
-        {notFound ? (
-          <NotFound>No results found</NotFound>
-        ) : (
-          searchResults && <ProjectTable projects={searchResults} />
-        )}
-      </SectionTable>
-    </Section>
-    
+        {/* </FilterContainer> */}
+
+        <SectionTable>
+          {notFound ? (
+            <NotFound>No results found</NotFound>
+          ) : (
+            searchResults && <ProjectTable projects={searchResults} />
+          )}
+        </SectionTable>
+      </Section>
     </>
   );
 };

@@ -1,120 +1,258 @@
-// import React from 'react'
+import React from 'react';
 import logo from "../logo.svg";
 import styled from "styled-components";
-import { MdAccountCircle } from "react-icons/md";
-import { NavLink, Router } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
+import { PiStudent } from "react-icons/pi";
+import { IoPersonSharp } from "react-icons/io5";
+import { NavLink } from "react-router-dom";
+import { FaChalkboardTeacher } from "react-icons/fa";
+import { MdClose } from "react-icons/md";
 import { AiFillHome } from "react-icons/ai";
-import "./Navbar.css";
+import "../index.css";
+import { useState } from "react";
 
-const Nav = styled.div`
-  background-color: #323232;
+const Header = styled.div`
   display: flex;
-  width: 100%;
-  align-items: center;
-  font-size: 1rem;
-  /* position: sticky; */
+  position: relative;
   top: 0;
+  background-color: #1f1f1f;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+  flex-direction: row;
+  height: 100px;
+  
+  width: 100%;
+  position: sticky;
   z-index: 10;
   @media screen and (max-width: 960px) {
-    background-color: red;
-    transition: 0.8 all ease;
+    transition: 0.8s all ease;
+    width: 100%;
+  }
+  @media screen and (max-width: 530px) {
+    height: 80px;
+  }
+  @media screen and (max-width: 440px) {
+    height: 65px;
+  }
+`;
+
+const LogoContainer = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+  margin-left: 50px;
+  padding: 15px;
+  @media screen and (max-width: 612px) {
+    margin-left: 18px;
+    padding: 13px;
+  }
+  @media screen and (max-width: 530px) {
+    margin-left: 15px;
+    padding: 12px;
+  }
+  @media screen and (max-width: 440px) {
+    margin-left: 12px;
+    padding: 10px;
+  }
+  > img {
+    filter: drop-shadow(2px, 2px, 2px, grey);
+    opacity: 1;
+    height: 140px;
+    @media screen and (max-width: 612px) {
+      height: 130px;
+    }
+    @media screen and (max-width:530px) {
+      height: 116px;
+    }
+    @media screen and (max-width:440px) {
+      height: 90px;
+    }
+  }
+`;
+
+const Nav = styled.nav`
+  display: flex;
+  background-color: #1f1f1f;
+  width: 100%;
+  align-items: center;
+ 
+  justify-content: space-between;
+  font-size: 1rem;
+  top: 0;
+  z-index: 10;
+  @media screen and (max-width: 869px) {
+    justify-content: space-between;
+  }
+  @media screen and (max-width: 960px) {
+    transition: 0.8s all ease;
     width: 100%;
   }
 `;
-const ButtonContainer = styled.div`
-  font-weight: 500;
-  position: relative;
+
+const NavList = styled.ul`
   display: flex;
-  margin: 20px 30px 0px;
-  align-items: center;
   justify-content: center;
-  font-size: 40px;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+  max-width: 1800px;
+  width: 60%;
   color: white;
-  width: 100px;
-  height: 50px;
-  
-  &:hover{
-    transition: 0.5s;
-    transform: scale(1.1);
+  list-style: none;
+  margin-left: 20px;
+  gap: 60px;
+  font-weight: bold;
+  @media screen and (max-width: 1056px) {
+    width: 80%;
   }
-  &:not(hover){
-    transition: 0.5s;
-   
-  }
-  cursor: pointer;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 869px) {
     display: none;
   }
 `;
-const Button = styled.button`
-  background-color: transparent;
-  color: #520f15;
-  
-  
+
+const MobileMenu = styled.div`
+  @media screen and (min-width: 870px) {
+    display: none;
+  }
+  @media screen and (max-width: 869px) {
+    transition-duration: 1s;
+    transition: ease-in-out;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 20px 40px;
+    font-size: 40px;
+  }
+  @media screen and (max-width: 612px) {
+    font-size: 35px;
+    padding: 20px 30px;
+  }
+  @media screen and (max-width: 440px) {
+    font-size: 25px;
+    padding: 20px 20px;
+  }
+`;
+
+const StyledNavLink = styled(NavLink)`
+  text-decoration: none;
+  &.active {
+    color: #7e2e34;
+  }
+`;
+
+const List = styled.li`
+  color: white;
+  gap: 5px;
+  text-decoration: none;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 20px;
-  font-size: 1rem;
-  font-weight: 500;
-  height: 40px;
-  width: 150px;
-  cursor: pointer;
+  text-align: center;
+  padding: 2px;
   &:hover {
-    transition: 0.8s;
-    background-color: #520f15;
-    color: white;
+    transition: 0.2s;
+    color: #7e2e34;
   }
-  @media screen and (max-width: 768px) {
-    font-size: 0.8rem;
+  .active {
+    color: #7e2e34;
   }
 `;
-// const Button = styled.button`
-//   position: relative;
-//   display: flex;
-//   background: transparent;
-//   justify-content: center;
-//   align-items: center;
 
-//   height: 35px;
-//   width: 100px;
-//   border: 1px solid white;
-//   border-radius: 10px;
-//   color: white;
-//   cursor: pointer;
-// `;
+const MobileNavList = styled.ul`
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  top:0;
+ 
+  left: ${({ isopen }) => (isopen ? '0' : '-100%')};
+  width: 40%;
+  height: 100vh;
+  
+  overflow: hidden;
+  box-shadow: 0 -2px 10px rgba(0,0,0,1);
+  background-color: rgba(31,31,31,0.8);
+  color: white;
+  list-style: none;
+  padding: 100px 20px;
+  transition:  0.6s ease;
+  z-index: 9;
+  @media screen and (max-width: 869px) {
+    display: flex;
+  }
+`;
+
+const MobileNavItem = styled.li`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 20px;
+  width: 200px;
+  font-size: 20px;
+`;
+
 const Navbar = () => {
+  const [menuBar, setMenuBar] = useState(true);
+  const toggleMenu = () => {
+    setMenuBar(!menuBar);
+  };
+
   return (
-    <header className="header1">
-      <div className="logo1">
-        <img src={logo} alt="" />
-      </div>
-      <Nav className="navbar1">
-        <ul className="nav_ul">
-          <NavLink className="link" to="/">
-            <li className="nav_li">
-              <AiFillHome style={{ fontSize: "25px" }} />
-            </li>
-          </NavLink>
-          <NavLink className="link" to="/searchfaculty">
-            <li className="nav_li">Search Faculty</li>
-          </NavLink>
-          <NavLink className="link" to="/searchstudent">
-            <li className="nav_li">Search Students</li>
-          </NavLink>
-          <NavLink className="link" to="/searchalumini">
-            <li className="nav_li">Search Alumini</li>
-          </NavLink>
-          {/* <NavLink className="link" to="/addprofile"><li className="nav_li"><Button>Profile</Button></li></NavLink> */}
-          {/* <NavLink className="link" to="/myprofile"><li className="nav_li">My Profile</li></NavLink> */}
-        </ul>
+    <Header>
+      <Nav>
+        <LogoContainer>
+          <img src={logo} alt="" />
+        </LogoContainer>
+        <MobileMenu onClick={toggleMenu}>
+          {menuBar ? <FaBars /> : <MdClose />}
+        </MobileMenu>
+        <NavList>
+          <StyledNavLink to="/">
+            <List>
+              <AiFillHome style={{ fontSize: "30px" }} />
+              <span>Home</span>
+            </List>
+          </StyledNavLink>
+          <StyledNavLink to="/searchstudent" className="nav_link">
+            <List>
+              <IoPersonSharp style={{ fontSize: "25px" }} />
+              Student
+            </List>
+          </StyledNavLink>
+          <StyledNavLink to="/searchfaculty" className="nav_link">
+            <List>
+              <FaChalkboardTeacher style={{ fontSize: "30px" }} />
+              Faculty
+            </List>
+          </StyledNavLink>
+          <StyledNavLink to="/searchalumini" className="nav_link">
+            <List>
+              <PiStudent style={{ fontSize: "30px" }} />
+              Alumni
+            </List>
+          </StyledNavLink>
+        </NavList>
+        <MobileNavList isopen={!menuBar}>
+          <MobileNavItem>
+            <AiFillHome style={{ fontSize: "30px" }} />Home
+          </MobileNavItem>
+          <MobileNavItem>
+            <IoPersonSharp style={{ fontSize: "25px" }} />Student
+          </MobileNavItem>
+          <MobileNavItem>
+            <FaChalkboardTeacher style={{ fontSize: "30px" }} />Faculty
+          </MobileNavItem>
+          <MobileNavItem>
+            <PiStudent style={{ fontSize: "30px" }} />Alumni
+          </MobileNavItem>
+        </MobileNavList>
       </Nav>
-      {/* <ButtonContainer>
-      <MdAccountCircle style={{color:"white"}}/><span  style={{fontSize:"20px",marginLeft:"5px"}}>Profile</span>
-      </ButtonContainer> */}
-       
-      
-    </header>
+    </Header>
   );
 };
 

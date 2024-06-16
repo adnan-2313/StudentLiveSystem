@@ -7,54 +7,213 @@ import img from "../IMG1.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { AppContext } from "./Context";
 import { useNavigate } from "react-router-dom";
+import HomeFeatures from "./HomeFeatures";
+const HomeContainer = styled.div`
+  position: relative;
+  display: flex;
+  transition: 0.8s all ease;
+  flex-direction: row;
+  justify-content: center;
+  //  align-items: center;
+  // clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 90%, 0 100%);
+  background-color: #121212;
+  padding: 40px 30px;
+  /* height: 500px; */
+  width: 100%;
 
+  color: white;
+  text-shadow: 1px 1px black;
+  @media screen and (max-width: 740px) {
+    padding: 20px 15px;
+  }
+  @media screen and (max-width: 550px) {
+    padding: 10px;
+  }
+  @media screen and (max-width: 440px) {
+    /* padding-bottom: 0; */
+    /* height: 380px; */
+  }
+`;
 
-const Span = styled.span`
-font-family: "Poppins", sans-serif;
-display: flex;
-position: relative;
-width: 580px;
-font-size: 20px;
-top: 22px;
-justify-content: center;
-align-items: center;
+const LeftContainer = styled.div`
+  display: flex;
+  width: 60%;
+  transition: 0.8s all ease;
+  position: relative;
+  flex-direction: column;
+  @media screen and (max-width: 1090px) {
+    justify-content: center;
+    align-items: center;
+
+    min-width: 100%;
+    max-width: 100%;
+  }
+  @media screen and (max-width: 740px) {
+    margin-left: 50px;
+  }
+  @media screen and (max-width: 612px) {
+    justify-content: flex-start;
+    padding-top: 30px;
+  }
 `;
-const ImgContainer = styled.div`
-display: flex;
-margin-left: 800px;
-height: 60vh;
-overflow: hidden;
-position: absolute;
-/* border: 2px solid white; */
-border-radius: 50%;
-/* box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2); */
+
+const HeadingContainer = styled.div`
+  font-size: 24px;
+  transition: 0.8s all ease;
+  @media screen and (max-width: 1090px) {
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and (max-width: 740px) {
+    font-size: 21px;
+  }
+  @media screen and (max-width: 612px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 530px) {
+    /* font-size: 15px; */
+  }
+  @media screen and (max-width: 440px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 350px) {
+    font-size: 13px;
+  }
 `;
+const Head1 = styled.h1`
+  gap: 10px;
+  /* border: 1px solid white; */
+  @media screen and (max-width: 1080px) {
+    display: flex;
+    justify-content: center;
+  }
+`;
+const Head2 = styled.h3`
+  display:flex;
+  
+  @media screen and (max-width: 530px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+`;
+const Head3 = styled.h4`
+  /* border: 1px solid white; */
+  @media screen and (max-width: 1080px) {
+    display: flex;
+    justify-content: center;
+  }
+`;
+const Para = styled.p`
+transition: 0.8s all ease;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  position: relative;
+  width: 80%;
+  font-size: 18px;
+  top: 22px;
+  color: #757575;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 1080px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  @media screen and (max-width: 612px) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: 440px) {
+    /* font-size: 12px; */
+  }
+  @media screen and (max-width: 350px) {
+    font-size: 12px;
+  }
+  /* border: 2px solid white; */
+`;
+
 const ButtonContainer = styled.div`
-display: flex;
-position: relative;
-top: 50px;
-gap: 10px;
+  display: flex;
+  transition: 0.8s all ease;
+  margin-top: 45px;
+  top: 80px;
+  gap: 10px;
 `;
 const ColorSpan = styled.span`
-color: #520f15;
+  color: #520f15;
 `;
 const Button = styled.button`
-background-color: #520f15;
-border: none;
-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-width: 100px;
-height: 35px;
-border-radius: 10px;
-cursor: pointer;
-
+  display: flex;
+  transition: 0.8s all ease;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #520f15;
+  border: none;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+  width: 100px;
+  padding: 20px 60px;
+  font-size: 16px;
+  height: 35px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  @media screen and (max-width: 612px) {
+    padding: 10px 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+  @media screen and (max-width: 440px) {
+    padding: 8px 33px;
+    height: 30px;
+    width: 90px;
+    font-size: 12px;
+  }
+  @media screen and (max-width: 350px) {
+    padding: 8px 33px;
+    height: 20px;
+    width: 70px;
+    font-size: 9px;
+  }
+`;
+const RightContainer = styled.div`
+  display: flex;
+  transition: 0.8s all ease;
+  margin-left: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 400px;
+  @media screen and(max-width:1080px) {
+    display: none;
+  }
+`;
+const ImgContainer = styled.div`
+  display: flex;
+  transition: 0.8s all ease;
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+  @media screen and (max-width: 1080px) {
+    display: none;
+    background-color: red;
+  }
 `;
 
+const Img = styled.img`
+transition: 0.8s all ease;
+  @media screen and (max-width: 1080px) {
+    display: none;
+  }
+`;
 
 const MainHeader = () => {
-  
   const data = useContext(AppContext);
   const [text] = useTypewriter({
-    words: ["LPU Student Live System"],
+    words: ["Student", "Live", "System"],
     loop: {},
   });
 
@@ -75,73 +234,67 @@ const MainHeader = () => {
     });
   }, []);
 
-  const nav  = useNavigate();
- 
+  const nav = useNavigate();
+
   return (
     <>
       <Navbar></Navbar>
-      <section className="home1">
-        <div className="home_head">
-          <h1 className="typed content-item">
-            {data} <ColorSpan>{text}</ColorSpan>
-            <Cursor />
-          </h1>
-          <h3 className="typed content-item">
-            Connecting Engineers, Creating Opportunities
-          </h3>
-          <h4 className="typed1 content-item">
-            <ColorSpan>Discover, Connect, Innovate</ColorSpan>
-          </h4>
-          <Span className="para">
-            At LPU, we believe in fostering collaboration and innovation among
-            our student community. Our Student Live System is designed to
-            connect students with diverse engineering minors, skills, and
-            projects, while also facilitating meaningful interactions with
-            alumni and faculty.
-          </Span>
-          <ButtonContainer>
-            <Button
-              onClick={() => {
-                nav("/searchstudent");
-              }}
-            >
-              Students
-            </Button>
-            <Button onClick={() => {
-                nav("/searchfaculty");
-              }}>Faculty</Button>
-            <Button onClick={() => {
-                nav("/searchalumini");
-              }}>Alumini</Button>
-            
-          </ButtonContainer>
-          <ImgContainer>
-            <img className="para" src={img} alt="" />
-          </ImgContainer>
-        </div>
+      <section>
+        <HomeContainer>
+          <LeftContainer>
+            <HeadingContainer>
+              <Head1 className="content-item">
+                {data} <ColorSpan>LPU {text}</ColorSpan>
+                <Cursor />
+              </Head1>
 
-        <div className="para1"></div>
-        <div className="para2">
-          <ul>
-            <li className="para">
-              Students can create profiles showcasing their engineering minors,
-              skills, and ongoing projects.
-            </li>
-            <li className="para">
-              Project Collaboration: Students can find and collaborate with
-              others on various projects.
-            </li>
-            <li className="para">
-              Alumni Networking: Opportunities for students to connect with
-              alumni for mentorship and networking.
-            </li>
-            <li className="para">
-              Faculty Interaction: Platform facilitates communication and
-              engagement with faculty members.
-            </li>
-          </ul>
-        </div>
+              <Head2 className="content-item">
+                Connecting Engineers, Creating Opportunities
+              </Head2>
+              <Head3 className="content-item">
+                <ColorSpan>Discover, Connect, Innovate</ColorSpan>
+              </Head3>
+            </HeadingContainer>
+            <Para className="para">
+              At LPU, we believe in fostering collaboration and innovation among
+              our student community. Our Student Live System is designed to
+              connect students with diverse engineering minors, skills, and
+              projects, while also facilitating meaningful interactions with
+              alumni and faculty.
+            </Para>
+            <ButtonContainer className="para">
+              <Button
+                onClick={() => {
+                  nav("/searchstudent");
+                }}
+              >
+                Students
+              </Button>
+              <Button
+                onClick={() => {
+                  nav("/searchfaculty");
+                }}
+              >
+                Faculty
+              </Button>
+              <Button
+                onClick={() => {
+                  nav("/searchalumini");
+                }}
+              >
+                Alumini
+              </Button>
+            </ButtonContainer>
+          </LeftContainer>
+          <RightContainer>
+            <ImgContainer>
+              <Img className="para" src={img} alt="" />
+            </ImgContainer>
+          </RightContainer>
+        </HomeContainer>
+        <HomeFeatures/>
       </section>
+
       <Footer></Footer>
     </>
   );

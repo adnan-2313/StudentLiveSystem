@@ -1,14 +1,16 @@
-import React from 'react'
-
+import styled from "styled-components";
+const FooterContainer = styled.footer`
+  display: flex;
+`;
 const Footer = () => {
-    const year = new Date().getFullYear();
+  const year = new Date().getFullYear();
   return (
     <>
-      <footer>
+      <Footer1>
         <h1>{`Copyright©️ ${year}`}</h1>
-      </footer>
+      </Footer1>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
