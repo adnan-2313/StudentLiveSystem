@@ -5,69 +5,29 @@ import { FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 const CardContainer = styled.div`
-  /* position: relative; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  gap: 20px;
-  height: 100%;
+  margin-top: 20px;
   width: 100%;
-  background-color: #121212;
-  @media (max-width: 667px) {
-    width: 100%;
-  }
 `;
 
 const Card = styled.div`
   border-radius: 10px;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
   width: 700px;
-  background-color: #1f1f1f;
+  background-color: #1e1e1e;
   display: flex;
+
   flex-direction: column;
-  /* position: relative; */
-  top: 0px;
-  margin-bottom: 20px; /* Add some bottom margin for spacing between cards */
-  height: 380px; /* Allow the card to expand vertically based on its content */
+  padding: 0px 0px 20px 0px;
+  margin-bottom: 20px;
+  /* Allow the card to expand vertically based on its content */
   max-width: 700px; /* Limit the maximum width of the card */
   word-wrap: break-word; /* Allow long texts to wrap within the card */
   @media (max-width: 742px) {
     width: 100%;
-  }
-  @media (max-width: 667px) {
-    border: 1px solid white;
-    width: 100%;
-  }
-  @media (max-width: 600px) {
-    width: 100%;
-  }
-  @media (max-width: 563px) {
-    width: 100%;
-  }
-  @media (max-width: 540px) {
-    width: 100%;
-    border: 1px solid white;
-  }
-`;
-const Card1 = styled.div`
-  border-radius: 10px;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
-  width: 700px;
-  background-color: #1f1f1f;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 0px;
-  margin-bottom: 30px; /* Add some bottom margin for spacing between cards */
-  padding-top: 30px;
-  padding-bottom: 30px;
-  height: inherit;
-  max-width: 700px; /* Limit the maximum width of the card */
-  word-wrap: break-word; /* Allow long texts to wrap within the card */
-  @media (max-width: 742px) {
-    width: 100%;
+    border-radius: 0px;
   }
   @media (max-width: 667px) {
     width: 100%;
@@ -91,9 +51,10 @@ const Cardbg = styled.div`
   border-top-left-radius: 10px;
   height: 180px;
   width: 700px;
-  background-color: red;
+
   @media (max-width: 742px) {
     width: 100%;
+    border-radius: 0px;
   }
   @media (max-width: 667px) {
     width: 100%;
@@ -125,156 +86,190 @@ const Image = styled.div`
     top: 95px;
   }
 `;
+const StudentDetailsContainer = styled.div`
+  padding: 40px 0px 10px 0px;
+  width: 100%;
+  display: flex;
 
+  flex-direction: row;
+  gap: 40px;
+  @media (max-width: 594px) {
+    width: 80%;
+    gap: 0px;
+    flex-direction: column;
+    padding-left: 10px;
+    /* align-items: center; */
+  }
+`;
 const StudentDetails = styled.div`
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: first baseline;
-  position: relative;
-  left: 0px;
-  top: 38px;
-  height: auto;
+  justify-content: space-between;
+
   width: 400px;
   padding-left: 20px;
-  border: 2px solid red;
-  height: 100px;
+
   @media (max-width: 667px) {
     gap: 3px;
-    font-size: 13px;
+    /* font-size: 13px; */
+  }
+  @media (max-width: 494px) {
+    font-size: 14px;
   }
 `;
-const Social = styled.div`
+const SocialContainer = styled.div`
   /* border: 2px solid white; */
   font-size: 12px;
   display: flex;
   width: 250px;
-  flex-direction: column;
-  position: absolute;
-  left: 420px;
-  top: -10px;
-  @media (max-width: 742px) {
-    left: 390px;
-    border: 1px solid pink;
-    width: 210px;
-  }
-  @media (max-width: 667px) {
-    left: 360px;
-    width: 220px;
-    font-size: 10px;
-    border: 1px solid yellow;
-  }
 
-  @media (max-width: 563px) {
-    left: 280px;
-    width: 220px;
-    border: 1px solid white;
-    font-size: 9px;
+  flex-direction: column;
+
+  @media (max-width: 594px) {
+    margin-left: 20px;
   }
   @media (max-width: 540px) {
-    left: 280px;
-    width: 200px;
-    border: 1px solid white;
-    font-size: 9px;
+  }
+`;
+const Social = styled.div`
+  display: flex;
+  gap: 5px;
+  color: #757575;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  @media (max-width: 563px) {
+    gap: 20px;
+    /* font-size: 13px; */
+  }
+`;
+const SocialItem = styled.span`
+  font-size: 13px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  @media (max-width: 594px) {
+    justify-content: flex-start;
+    /* font-size: 13px; */
   }
 `;
 const Logo = styled.span`
-  margin-right: 5px;
+  font-size: 20px;
+
   position: relative;
-  top: 8px;
+
   @media (max-width: 563px) {
     width: 10px;
   }
+  &:hover {
+    color: white;
+  }
 `;
-const Name = styled.h3`
+const Name = styled.h2`
   font-size: 23px;
-  /* color:#1b1b19; */
-  width: 500px;
-  position: absolute;
+  color: white;
+`;
+const Department = styled.span`
+  display: flex;
+  flex-wrap: wrap;
 `;
 
 const Details = styled.div`
   width: 100%;
   display: flex;
-
+  color: white;
   flex-direction: column;
-  position: relative;
-  margin-bottom: 150px;
+
   justify-content: flex-start;
 `;
-
+const ProjectsCard = styled.div`
+  width: 100%;
+  height: 100%;
+  padding: 30px 10px 0px 10px;
+`;
+const ProjectContainer = styled.div`
+  width: 100%;
+`;
 const Projects = styled.div`
   color: white;
-  width: 500px;
-  border: 1px solid white;
+  width: 100%;
+  border-bottom: 1px solid white;
+  margin: 10px 0px 10px 0px;
+  width: 100%;
   display: flex;
   flex-direction: column; /* Changed to column */
-  position: relative;
-  margin-left: 30px;
+  padding: 0px 0px 10px 20px;
   justify-content: flex-start;
 
-  @media (max-width: 742px) {
-    width: 440px;
-  }
-  @media (max-width: 667px) {
-    width: 420px;
-    font-size: 12px;
-    gap: 4px;
+  @media (max-width: 594px) {
+    font-size: 14px;
   }
 `;
+const ProjectDeatilList = styled.ul`
 
-const Span = styled.span`
-  position: relative;
-
-  top: 4px;
+`;
+const ProjectDetailItem = styled.li`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  @media (max-width: 563px) {
+    flex-direction: column;
+  }
 `;
 const Heading = styled.h2`
-  font-size: 30px;
-  position: relative;
-
+  font-size: 40px;
+  text-decoration: underline;
   color: white;
+
   margin: 0px 20px 0px 30px;
   @media (max-width: 667px) {
     font-size: 25px;
   }
 `;
+const ProjectName = styled.h3`
+  color: white;
+`;
+const ProjectDomain = styled.p`
+  margin-left: 10px;
+`;
+const ProjectDes = styled.p`
+  margin-left: 10px;
+  color: white;
+`;
+const TechStack = styled.p`
+  margin-left: 10px;
+`;
 const Date = styled.span`
-  position: relative;
-  left: 500px;
-  border: 1px solid white;
-  top: -28px;
-  @media (max-width: 742px) {
-    left: 450px;
-  }
-  @media (max-width: 600px) {
-    left: 400px;
-  }
+  padding: 0px 20px;
   @media (max-width: 563px) {
-    left: 350px;
+    padding: 0px;
   }
 `;
 
 const StudentCard = () => {
   const location = useLocation();
   const { state } = location;
+  console.log(state);
   const { city, country, email, minor, name, reg_no, student_state, year } =
     state;
   console.log(reg_no);
   const [studentData, setStudentData] = useState(null);
-
+  const fetchData = async () => {
+    try {
+      const response = await fetch(
+        `http://127.0.0.1:5000/student?reg_no=${reg_no}`
+      );
+      const data = await response.json();
+      setStudentData(data);
+    } catch (error) {
+      console.error("Error fetching student data:", error);
+    }
+  };
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch(
-          `http://127.0.0.1:5000/student?reg_no=${reg_no}`
-        );
-        const data = await response.json();
-        setStudentData(data);
-      } catch (error) {
-        console.error("Error fetching student data:", error);
-      }
-    };
-
     if (reg_no) {
       // Ensure reg_no exists before fetching data
       fetchData();
@@ -293,65 +288,66 @@ const StudentCard = () => {
               />
             </Image>
           </Cardbg>
-          <StudentDetails>
-            <Name>{name}</Name>
-            <br />
-            <Span>{minor}</Span>
-            <span>Computer Science and Engineering</span>
+          <StudentDetailsContainer>
+            <StudentDetails>
+              <Name>{name}</Name>
 
-            <Details>
-              <span>
-                <u>Address</u>: {city}, {student_state}, {country}
-              </span>
-              <span></span>
-            </Details>
-          </StudentDetails>
+              <span>{minor}</span>
+              <Department>Computer Science and Engineering</Department>
+
+              <Details>
+                <span>
+                  <u>Address</u>: {city}, {student_state}, {country}
+                </span>
+                <span></span>
+              </Details>
+            </StudentDetails>
+            <SocialContainer>
+              <Social>
+                <Logo>
+                  <SiGmail />{" "}
+                </Logo>
+                <SocialItem>{email}</SocialItem>
+              </Social>
+              <Social>
+                <Logo>
+                  <FaLinkedin />{" "}
+                </Logo>
+                <SocialItem>
+                  linkedin.com/{name.split(" ").join("_").toLowerCase()}
+                </SocialItem>
+              </Social>
+            </SocialContainer>
+          </StudentDetailsContainer>
         </Card>
-        <Card1>
-          <Heading>Projects</Heading>
-          <Projects>
-            {studentData &&
-              Object.values(studentData).map((project) => (
-                <div key={project.project_name}>
-                  <ul>
-                    <li>
-                      <h3>{project.project_name}</h3>
-                    </li>
-                    <Date>{project.project_date}</Date>
-                    <p
-                      style={{
-                        position: "relative",
-                        left: "0px",
-                        top: "-25px",
-                      }}
-                    >
-                      ({project.project_domain})
-                    </p>
-                    <p
-                      style={{
-                        position: "relative",
-                        left: "20px",
-                        top: "-25px",
-                      }}
-                    >
-                      <i>{project.project_des}</i>
-                    </p>
-                    <p
-                      style={{
-                        position: "relative",
-                        left: "20px",
-                        top: "-25px",
-                      }}
-                    >
-                      <b>Technologies Used: </b>
-                      {project.tech_used}
-                    </p>
-                    {/* Add more project details as needed */}
-                  </ul>
-                </div>
-              ))}
-          </Projects>
-        </Card1>
+        <Card>
+          <ProjectsCard>
+            <ProjectContainer>
+              <Heading>Projects</Heading>
+              {studentData &&
+                Object.values(studentData).map((project, index) => (
+                  <Projects key={index}>
+                    <ProjectDeatilList>
+                      <ProjectDetailItem>
+                        <ProjectName>{project.project_name}</ProjectName>
+                        <Date>({project.project_date})</Date>
+                      </ProjectDetailItem>
+                      <ProjectDomain>
+                        Domain :{project.project_domain}
+                      </ProjectDomain>
+                      <TechStack>
+                        {" "}
+                        <b>Technologies Used: </b> {project.tech_used}
+                      </TechStack>
+                      <ProjectDes>{project.project_des}</ProjectDes>
+
+                      {/* Add more project details as needed */}
+                    </ProjectDeatilList>
+                  </Projects>
+                ))}
+            </ProjectContainer>
+          </ProjectsCard>
+        </Card>
       </CardContainer>
     </>
   );
