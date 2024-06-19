@@ -5,6 +5,7 @@ import img from "../../Utils/IMG1.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { useNavigate } from "react-router-dom";
 import HomeFeatures from "./HomeFeatures";
+import Footer from "../Components/Footer"
 const HomeContainer = styled.div`
   position: relative;
   display: flex;
@@ -292,6 +293,7 @@ const MainHeader = () => {
         </HomeContainer>
         <HomeFeatures />
       </section>
+      <Footer />
     </>
   );
 };

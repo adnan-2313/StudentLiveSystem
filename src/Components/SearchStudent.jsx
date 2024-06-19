@@ -7,18 +7,20 @@ import { Card, CardContent, CardImage, Cardbg } from "./ProfileCard";
 
 const Section = styled.section`
   display: flex;
+  position: relative;
 
   flex-direction: column;
   align-items: center;
-
+ 
   background-color: #121212;
+  padding: 20px;
 `;
 
 const Table = styled.table`
   position: relative;
   width: 100%;
   background-color: #1f1f1f;
-
+  
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
   border-collapse: collapse;
   margin: 1em;
@@ -101,8 +103,9 @@ const SearchContainer = styled.div`
   width: 100%;
   /* background-color: #323232; */
 
-  overflow: hidden;
-  margin-top: 30px;
+  
+  margin: 15px 0px 10px 0px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -141,7 +144,8 @@ const NotFound = styled.p`
 
 const SectionTable = styled.div`
   display: flex;
-  margin-top: 40px;
+  
+  
   justify-content: center;
   align-items: center;
   margin-bottom: 100px;
@@ -315,10 +319,10 @@ const SearchBar = () => {
 
   useEffect(() => {
     // Retrieve search results from local storage on component mount
-    const storedResults = localStorage.getItem("searchResults");
-    if (storedResults) {
-      setSearchResults(JSON.parse(storedResults));
-    }
+    // const storedResults = localStorage.getItem("searchResults");
+    // if (storedResults) {
+    //   setSearchResults(JSON.parse(storedResults));
+    // }
   }, []);
 
   useEffect(() => {
