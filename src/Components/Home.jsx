@@ -5,7 +5,7 @@ import img from "../../Utils/IMG1.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { useNavigate } from "react-router-dom";
 import HomeFeatures from "./HomeFeatures";
-import Footer from "../Components/Footer"
+import Footer from "../Components/Footer";
 const HomeContainer = styled.div`
   position: relative;
   display: flex;
@@ -76,6 +76,7 @@ const HeadingContainer = styled.div`
   }
   @media screen and (max-width: 350px) {
     font-size: 14px;
+    width: 100%;
   }
 `;
 const Head1 = styled.h1`
@@ -122,13 +123,13 @@ const Para = styled.p`
     text-align: center;
   }
   @media screen and (max-width: 612px) {
-    font-size: 16px;
+    /* font-size: 16px; */
   }
   @media screen and (max-width: 440px) {
-    /* font-size: 12px; */
+    font-size: 14px;
   }
   @media screen and (max-width: 350px) {
-    font-size: 12px;
+    font-size: 13px;
   }
   /* border: 2px solid white; */
 `;
