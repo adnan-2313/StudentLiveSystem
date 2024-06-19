@@ -70,7 +70,7 @@ const FeatureItem = styled.li`
     width: 65%;
   }
   @media screen and (max-width: 440px) {
-    width: 85%;
+    width: 80%;
   }
 `;
 const Img = styled.img`
