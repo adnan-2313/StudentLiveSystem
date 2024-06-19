@@ -6,8 +6,8 @@ const FooterContainer = styled.footer`
   display: flex;
   bottom: 0;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
-  position: relative;
-  margin-top: 50px;
+  
+ 
   justify-content: space-between;
   background-color: #1f1f1f;
   align-items: center;

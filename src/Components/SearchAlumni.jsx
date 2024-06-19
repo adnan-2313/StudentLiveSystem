@@ -130,16 +130,13 @@ const companies = [
 ];
 
 const Section = styled.section`
-  /* position: relative; */
+  position: relative;
   display: flex;
-  
   flex-direction: column;
   align-items: center;
   
-
   background-color: #121212; /* Dark mode background */
   color: #ffffff; /* Text color */
-  
 
 `;
 
@@ -148,7 +145,6 @@ const CardsContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-
 `;
 
 const Dropdown = styled.select`
