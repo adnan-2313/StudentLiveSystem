@@ -1,11 +1,8 @@
 import ScrollReveal from "scrollreveal";
-import { useContext, useEffect } from "react";
-import Navbar from "./Navbar";
+import { useEffect } from "react";
 import styled from "styled-components";
-import Footer from "../Footer";
-import img from "../IMG1.png";
+import img from "../../Utils/IMG1.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { AppContext } from "./Context";
 import { useNavigate } from "react-router-dom";
 import HomeFeatures from "./HomeFeatures";
 const HomeContainer = styled.div`
@@ -17,7 +14,7 @@ const HomeContainer = styled.div`
   //  align-items: center;
   // clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 90%, 0 100%);
   background-color: #121212;
-  padding: 40px 30px;
+  padding: 45px 30px;
   /* height: 500px; */
   width: 100%;
 
@@ -77,7 +74,7 @@ const HeadingContainer = styled.div`
     font-size: 16px;
   }
   @media screen and (max-width: 350px) {
-    font-size: 13px;
+    font-size: 14px;
   }
 `;
 const Head1 = styled.h1`
@@ -89,8 +86,8 @@ const Head1 = styled.h1`
   }
 `;
 const Head2 = styled.h3`
-  display:flex;
-  
+  display: flex;
+
   @media screen and (max-width: 530px) {
     flex-wrap: wrap;
     justify-content: center;
@@ -106,7 +103,7 @@ const Head3 = styled.h4`
   }
 `;
 const Para = styled.p`
-transition: 0.8s all ease;
+  transition: 0.8s all ease;
   font-family: "Poppins", sans-serif;
   display: flex;
   position: relative;
@@ -124,7 +121,7 @@ transition: 0.8s all ease;
     text-align: center;
   }
   @media screen and (max-width: 612px) {
-    font-size: 15px;
+    font-size: 16px;
   }
   @media screen and (max-width: 440px) {
     /* font-size: 12px; */
@@ -137,9 +134,11 @@ transition: 0.8s all ease;
 
 const ButtonContainer = styled.div`
   display: flex;
+
   transition: 0.8s all ease;
-  margin-top: 45px;
-  top: 80px;
+  margin-top: 55px;
+  margin-bottom: 15px;
+
   gap: 10px;
 `;
 const ColorSpan = styled.span`
@@ -173,9 +172,9 @@ const Button = styled.button`
     font-size: 12px;
   }
   @media screen and (max-width: 350px) {
-    padding: 8px 33px;
-    height: 20px;
-    width: 70px;
+    padding: 10px 33px;
+    height: 24px;
+    width: 72px;
     font-size: 9px;
   }
 `;
@@ -204,14 +203,14 @@ const ImgContainer = styled.div`
 `;
 
 const Img = styled.img`
-transition: 0.8s all ease;
+  transition: 0.8s all ease;
   @media screen and (max-width: 1080px) {
     display: none;
   }
 `;
 
 const MainHeader = () => {
-  const data = useContext(AppContext);
+  // const data = useContext(AppContext);
   const [text] = useTypewriter({
     words: ["Student", "Live", "System"],
     loop: {},
@@ -238,13 +237,12 @@ const MainHeader = () => {
 
   return (
     <>
-      <Navbar></Navbar>
       <section>
         <HomeContainer>
           <LeftContainer>
             <HeadingContainer>
               <Head1 className="content-item">
-                {data} <ColorSpan>LPU {text}</ColorSpan>
+                Welcome To <ColorSpan>LPU {text}</ColorSpan>
                 <Cursor />
               </Head1>
 
@@ -265,21 +263,21 @@ const MainHeader = () => {
             <ButtonContainer className="para">
               <Button
                 onClick={() => {
-                  nav("/searchstudent");
+                  nav("/student");
                 }}
               >
                 Students
               </Button>
               <Button
                 onClick={() => {
-                  nav("/searchfaculty");
+                  nav("/faculty");
                 }}
               >
                 Faculty
               </Button>
               <Button
                 onClick={() => {
-                  nav("/searchalumini");
+                  nav("/alumni");
                 }}
               >
                 Alumini
@@ -292,10 +290,8 @@ const MainHeader = () => {
             </ImgContainer>
           </RightContainer>
         </HomeContainer>
-        <HomeFeatures/>
+        <HomeFeatures />
       </section>
-
-      <Footer></Footer>
     </>
   );
 };

@@ -1,5 +1,4 @@
-import React from 'react';
-import logo from "../logo.svg";
+import logo from "../../Utils/logo.svg";
 import styled from "styled-components";
 import { FaBars } from "react-icons/fa";
 import { PiStudent } from "react-icons/pi";
@@ -19,7 +18,7 @@ const Header = styled.div`
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
   flex-direction: row;
   height: 100px;
-  
+
   width: 100%;
   position: sticky;
   z-index: 10;
@@ -41,11 +40,12 @@ const LogoContainer = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
-  
+
   margin-left: 50px;
   padding: 15px;
-  @media screen and (max-width: 612px) {
-    margin-left: 18px;
+
+  @media screen and (max-width: 666px) {
+    margin-left: 10px;
     padding: 13px;
   }
   @media screen and (max-width: 530px) {
@@ -53,7 +53,7 @@ const LogoContainer = styled.div`
     padding: 12px;
   }
   @media screen and (max-width: 440px) {
-    margin-left: 12px;
+    margin-left: 4px;
     padding: 10px;
   }
   > img {
@@ -63,10 +63,10 @@ const LogoContainer = styled.div`
     @media screen and (max-width: 612px) {
       height: 130px;
     }
-    @media screen and (max-width:530px) {
+    @media screen and (max-width: 530px) {
       height: 116px;
     }
-    @media screen and (max-width:440px) {
+    @media screen and (max-width: 440px) {
       height: 90px;
     }
   }
@@ -77,11 +77,12 @@ const Nav = styled.nav`
   background-color: #1f1f1f;
   width: 100%;
   align-items: center;
- 
+
   justify-content: space-between;
   font-size: 1rem;
   top: 0;
   z-index: 10;
+
   @media screen and (max-width: 869px) {
     justify-content: space-between;
   }
@@ -117,9 +118,11 @@ const MobileMenu = styled.div`
   }
   @media screen and (max-width: 869px) {
     transition-duration: 1s;
+
     transition: ease-in-out;
     display: flex;
-    justify-content: center;
+
+    justify-content: flex-end;
     color: #ffffff;
     cursor: pointer;
     padding: 20px 40px;
@@ -137,14 +140,15 @@ const MobileMenu = styled.div`
 
 const StyledNavLink = styled(NavLink)`
   text-decoration: none;
+  color: white;
   &.active {
     color: #7e2e34;
   }
 `;
 
 const List = styled.li`
-  color: white;
   gap: 5px;
+  cursor: pointer;
   text-decoration: none;
   font-size: 16px;
   display: flex;
@@ -156,9 +160,6 @@ const List = styled.li`
     transition: 0.2s;
     color: #7e2e34;
   }
-  .active {
-    color: #7e2e34;
-  }
 `;
 
 const MobileNavList = styled.ul`
@@ -167,19 +168,19 @@ const MobileNavList = styled.ul`
   align-items: center;
   justify-content: flex-start;
   position: absolute;
-  top:0;
- 
-  left: ${({ isopen }) => (isopen ? '0' : '-100%')};
-  width: 40%;
+  top: 0;
+
+  left: ${({ isopen }) => (isopen ? "0" : "-100%")};
+  width: 30%;
   height: 100vh;
-  
+
   overflow: hidden;
-  box-shadow: 0 -2px 10px rgba(0,0,0,1);
-  background-color: rgba(31,31,31,0.8);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+  background-color: rgba(31, 31, 31, 1);
   color: white;
   list-style: none;
-  padding: 100px 20px;
-  transition:  0.6s ease;
+
+  transition: 0.6s ease;
   z-index: 9;
   @media screen and (max-width: 869px) {
     display: flex;
@@ -188,12 +189,36 @@ const MobileNavList = styled.ul`
 
 const MobileNavItem = styled.li`
   display: flex;
+  cursor: pointer;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   padding: 20px 20px;
   width: 200px;
-  font-size: 20px;
+  font-size: 15px;
+  &:hover {
+    transition: 0.2s;
+    color: #7e2e34;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 10px;
+  }
+`;
+const MobileNavLogo = styled.div`
+  height: 120px;
+  width: 130px;
+  top: 0;
+  @media screen and (max-width: 500px) {
+    height: 100px;
+    width: 110px;
+  }
+  @media screen and (max-width: 392px) {
+    height: 80px;
+    width: 90px;
+  }
+
+  /* border: 1px solid white; */
 `;
 
 const Navbar = () => {
@@ -212,44 +237,60 @@ const Navbar = () => {
           {menuBar ? <FaBars /> : <MdClose />}
         </MobileMenu>
         <NavList>
-          <StyledNavLink to="/">
+          <StyledNavLink to="/" className="nav_link">
             <List>
               <AiFillHome style={{ fontSize: "30px" }} />
               <span>Home</span>
             </List>
           </StyledNavLink>
-          <StyledNavLink to="/searchstudent" className="nav_link">
+          <StyledNavLink to="/student" className="nav_link">
             <List>
               <IoPersonSharp style={{ fontSize: "25px" }} />
               Student
             </List>
           </StyledNavLink>
-          <StyledNavLink to="/searchfaculty" className="nav_link">
+          <StyledNavLink to="/faculty" className="nav_link">
             <List>
               <FaChalkboardTeacher style={{ fontSize: "30px" }} />
               Faculty
             </List>
           </StyledNavLink>
-          <StyledNavLink to="/searchalumini" className="nav_link">
+          <StyledNavLink to="/alumni" className="nav_link">
             <List>
               <PiStudent style={{ fontSize: "30px" }} />
               Alumni
             </List>
           </StyledNavLink>
         </NavList>
+
         <MobileNavList isopen={!menuBar}>
-          <MobileNavItem>
-            <AiFillHome style={{ fontSize: "30px" }} />Home
-          </MobileNavItem>
-          <MobileNavItem>
-            <IoPersonSharp style={{ fontSize: "25px" }} />Student
-          </MobileNavItem>
-          <MobileNavItem>
-            <FaChalkboardTeacher style={{ fontSize: "30px" }} />Faculty
-          </MobileNavItem>
-          <MobileNavItem>
-            <PiStudent style={{ fontSize: "30px" }} />Alumni
-          </MobileNavItem>
+          <MobileNavLogo>
+            <img src={logo} alt="" />
+          </MobileNavLogo>
+          <StyledNavLink to="/">
+            <MobileNavItem>
+              <AiFillHome style={{ fontSize: "30px" }} />
+              Home
+            </MobileNavItem>
+          </StyledNavLink>
+          <StyledNavLink to="/student" className="nav_link">
+            <MobileNavItem>
+              <IoPersonSharp style={{ fontSize: "25px" }} />
+              Student
+            </MobileNavItem>
+          </StyledNavLink>
+          <StyledNavLink to="/faculty" className="nav_link">
+            <MobileNavItem>
+              <FaChalkboardTeacher style={{ fontSize: "30px" }} />
+              Faculty
+            </MobileNavItem>
+          </StyledNavLink>
+          <StyledNavLink to="/alumni" className="nav_link">
+            <MobileNavItem>
+              <PiStudent style={{ fontSize: "30px" }} />
+              Alumni
+            </MobileNavItem>
+          </StyledNavLink>
         </MobileNavList>
       </Nav>
     </Header>

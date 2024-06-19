@@ -130,7 +130,7 @@ const FeedbackItem = styled.div`
   background-color: rgba(31, 31, 31, 0.6);
   box-shadow: 0px -2px 10px rgba(0, 0, 0, 1);
   font-size: 16px;
-  padding: 2rem;
+  padding: 3rem;
   height: 100%;
   color: #9ca3af;
   @media screen and (max-width: 898px) {
