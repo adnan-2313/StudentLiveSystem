@@ -28,8 +28,7 @@ As the lead developer, I managed a team of 7 members to deliver this project as 
 
 ## 🌟 Demo of the Project
 
-Below is a  Demo of the **Student Connecting System** interface:
-
+![Student Connecting System Demo](https://i.imgur.com/OMd32l5.jpeg)
 
 
 
