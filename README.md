@@ -23,4 +23,13 @@ As the lead developer, I managed a team of 7 members to deliver this project as 
 | **Database**        | MySQL                                                |  
 | **APIs**            | Multiple REST APIs integration                        |  
 | **Version Control** | Git, GitHub                                            |  
-| **Deployment**      | Vercel |  
+| **Deployment**      | Vercel | 
+
+
+## 🌟 Demo of the Project
+
+Below is a  Demo of the **Student Connecting System** interface:
+
+
+
+
